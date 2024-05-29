@@ -1,0 +1,53 @@
+{
+  "name": "@vialabs-io/contracts",
+  "description": "Decentralized Cross-Chain Crypto Messaging System",
+  "version": "0.4.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "message/**/*",
+    "features/**/*",
+    "config/**/*",
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rimraf dist",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VIALabs-io/contracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "bridge",
+    "messaging",
+    "crosschain",
+    "smart",
+    "contracts",
+    "avalanche",
+    "pulsechain",
+    "base",
+    "fantom",
+    "binance",
+    "cronos",
+    "harmony",
+    "oasis",
+    "arbitrum",
+    "gauss"
+  ],
+  "author": "Atlas <atlas@vialabs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VIALabs-io/contracts/issues"
+  },
+  "homepage": "https://developer.vialabs.io/",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "hardhat": "^2.22.4",
+    "typescript": "^5.4.5",
+    "rimraf": "^3.0.2"
+  }
+}
