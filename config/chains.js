@@ -1073,7 +1073,7 @@ const chainsConfig = {
       circleMessageTransmitter: "",
       circleTokenMinter: "",
       message: "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F",
-      featureGateway: "",
+      featureGateway: "0xb01b6E0d4AA0081336D02EdfaF67E68fdBF9B00b",
       feeToken: "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
       paper: "0x9d75f706b986F0075b3778a12153390273dE95eC",
       faucet: "",
