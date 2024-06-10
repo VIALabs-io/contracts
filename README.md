@@ -194,7 +194,6 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Ethereum Holesky            | 17000      | 0x668de98389d5d6C9064E40Cfda2FC6471EDDE7ff |
 | Ethereum Sepolia            | 11155111   | 0xF2AA17F92d4D9Be1c0b0D2A3235A06143A2D729f |
 | Fantom Testnet              | 4002       | 0x48964a49B5826DB6Cb8d8ed0dAf93eEeD734b923 |
-| Fomo Testnet                | 701        | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Frame Testnet               | 68840142   | 0xCb69924aDf996315aDcd9051ccE2B572dD9450a9 |
 | Gauss Testnet               | 1452       | 0xcbC2d50FA324c187adcf4a186fCb7EcC092E0758 |
 | Gelato OP Celestia Testnet  | 123420111  | 0xAede7a77D49Eb88Cb129896d69f0E66ee51D44AC |
