@@ -482,7 +482,7 @@ const chainsConfig = {
       type: "evm",
       message: "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F",
       featureGateway: "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
-      feeToken: "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
+      feeToken: "0x3a60C03a86eEAe30501ce1af04a6C04Cf0188700", // @note Circle's proxy, Path to USDC
       paper: "0x9d75f706b986F0075b3778a12153390273dE95eC",
       faucet: "0x78CC50562941f385c3d0c5204385c3CA686d85b8",
       weth: "0xc2e7eA22A69Fff2ac96EB9b306A562C9fb299b16",
@@ -495,7 +495,7 @@ const chainsConfig = {
       type: "evm",
       message: "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F",
       featureGateway: "",
-      feeToken: "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
+      feeToken: "0xf92De0c98007EBaDa22E138A881710B82C513Da0", // @note Circle's proxy, Path to USDC
       paper: "0x9d75f706b986F0075b3778a12153390273dE95eC",
       faucet: "0xc2e7eA22A69Fff2ac96EB9b306A562C9fb299b16",
       weth: "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -732,7 +732,7 @@ const chainsConfig = {
       type: "evm",
       message: "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F",
       featureGateway: "",
-      feeToken: "0x9d75f706b986F0075b3778a12153390273dE95eC",
+      feeToken: "0x8E3Ea13F2591B5B342FCa9272b59f831476aa74D", // @note Circle's proxy, Path to USDC
       paper: "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
       faucet: "",
       weth: "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
@@ -1087,7 +1087,7 @@ const chainsConfig = {
       circleTokenMinter: "",
       message: "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F",
       featureGateway: "0xb01b6E0d4AA0081336D02EdfaF67E68fdBF9B00b",
-      feeToken: "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
+      feeToken: "0xD464CC7367a7A39eb4b1E6643CDa262B0B0CfdA8", // @note MockUSDC from SolarLabs, Path to USDC
       paper: "0x9d75f706b986F0075b3778a12153390273dE95eC",
       faucet: "0x4ec36f230628d1f8582Df8E5636B396C172a3ffE",
       weth: "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
