@@ -1089,7 +1089,7 @@ const chainsConfig = {
       featureGateway: "0xb01b6E0d4AA0081336D02EdfaF67E68fdBF9B00b",
       feeToken: "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
       paper: "0x9d75f706b986F0075b3778a12153390273dE95eC",
-      faucet: "",
+      faucet: "0x4ec36f230628d1f8582Df8E5636B396C172a3ffE",
       weth: "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
       rpc: "https://80002.rpc.vialabs.io/",
       explorer: "https://mumbai.polygonscan.com/",
