@@ -11,9 +11,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "clean": "rimraf dist",
-    "prepare": "npm run build"
+
   },
   "repository": {
     "type": "git",
