@@ -178,6 +178,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Arbitrum Testnet (Sepolia)  | 421614     | 0x0D7e59B0390e47E6C3a29cCdF68e43f3e50e2119 |
 | Aurora Testnet              | 1313161555 | 0x52e1CFE18BD55bb8d885d463DC26D9C365cd316B |
 | Autonity Testnet            | 65100002   | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
+| Autonity Devnet             | 65100000   | 0x0EFafca24E5BbC1C01587B659226B9d600fd671f | 
 | Avalanche Testnet           | 43113      | 0x8f92F60ffFB05d8c64E755e54A216090D8D6Eaf9 |
 | Base Testnet (Sepolia)      | 84532      | 0xE700Ee5d8B7dEc62987849356821731591c048cF |
 | Binance Testnet             | 97         | 0x8eF8870CD5583891bDDcf2555e7833bD087392a3 |
@@ -189,6 +190,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Conflux Testnet             | 71         | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Cronos Testnet              | 338        | 0x8f92F60ffFB05d8c64E755e54A216090D8D6Eaf9 |
 | CronosZK Testnet            | 282        | 0xCf421b3497a28b4215F09e5bAf862C3a2532d681 |
+| Dojima Testnet              | 1401       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Ethereum Holesky            | 17000      | 0x668de98389d5d6C9064E40Cfda2FC6471EDDE7ff |
 | Ethereum Sepolia            | 11155111   | 0xF2AA17F92d4D9Be1c0b0D2A3235A06143A2D729f |
 | Fantom Testnet              | 4002       | 0x48964a49B5826DB6Cb8d8ed0dAf93eEeD734b923 |
@@ -219,7 +221,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Onus Testnet                | 1945       | 0xF8d80d6E52b5B8484a7CD27a5C0F3D35695c57dF |
 | opBNB Testnet               | 5611       | 0x7bB78097d7e672D65cD6596Ee9b4097CE16AC391 |
 | Optimism Testnet            | 11155420   | 0xe511183765E1F325702EF8F3d92046e9d6DF6742 |
-| Polygon Testnet             | 80001      | 0x524d9E4cB344A130696B29c182aA5a4A458379B6 |
+| Polygon Testnet (Amoy)      | 80002      | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Polygon zkEVM Testnet       | 1442       | 0xe72599F2F5C8aA96E578E48A09Bc6C1123fA5783 |
 | Pulse Testnet               | 943        | 0x91e26475016B923527B5Ef15789A9768EBA979e6 |
 | Redstone Testnet            | 17001      | 0x1Ec7Dfbc9e310768A17145f03f3451f562cEc773 |

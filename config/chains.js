@@ -489,6 +489,19 @@ const chainsConfig = {
       rpc: "https://65100002.rpc.vialabs.io/",
       explorer: "https://bakerloo.autonity.org/",
     },
+    "65100002": { // Autonity Devnet
+      name: "Autonity Devnet",
+      network: "testnet",
+      type: "evm",
+      message: "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F",
+      featureGateway: "",
+      feeToken: "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
+      paper: "0x9d75f706b986F0075b3778a12153390273dE95eC",
+      faucet: "0xc2e7eA22A69Fff2ac96EB9b306A562C9fb299b16",
+      weth: "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
+      rpc: "https://65100001.rpc.vialabs.io/",
+      explorer: "",
+    },    
     "43113": { // Avalanche Testnet
       name: "Avalanche Testnet",
       network: "testnet",
@@ -1078,7 +1091,7 @@ const chainsConfig = {
       paper: "0x9d75f706b986F0075b3778a12153390273dE95eC",
       faucet: "",
       weth: "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
-      rpc: "https://80001.rpc.vialabs.io/",
+      rpc: "https://80002.rpc.vialabs.io/",
       explorer: "https://mumbai.polygonscan.com/",
     },    
     "80001": { // Polygon Testnet
