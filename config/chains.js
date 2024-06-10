@@ -489,7 +489,7 @@ const chainsConfig = {
       rpc: "https://65100002.rpc.vialabs.io/",
       explorer: "https://bakerloo.autonity.org/",
     },
-    "65100002": { // Autonity Devnet
+    "65110000": { // Autonity Devnet
       name: "Autonity Devnet",
       network: "testnet",
       type: "evm",
@@ -499,7 +499,7 @@ const chainsConfig = {
       paper: "0x9d75f706b986F0075b3778a12153390273dE95eC",
       faucet: "0xc2e7eA22A69Fff2ac96EB9b306A562C9fb299b16",
       weth: "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
-      rpc: "https://65100001.rpc.vialabs.io/",
+      rpc: "https://65110000.rpc.vialabs.io/",
       explorer: "",
     },    
     "43113": { // Avalanche Testnet
