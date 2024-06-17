@@ -914,7 +914,7 @@ const chainsConfig = {
       type: "evm",
       message: "0xdCa897f920Df8015169838c428479D5e3d5Bf526",
       featureGateway: "0x8502Df9979eb32DE678b344598294a7102534912",
-      feeToken: "0x289992562cba9EB7447C0579d626ABb7960802cb",
+      feeToken: "0x3a60C03a86eEAe30501ce1af04a6C04Cf0188700", // @note Circle's proxy, Path to USDC
       paper: "0x80e9AE99124D81A59298Afd89A6469d0d7C73C2f",
       faucet: "0xefbdB4f11b61AEb417AAC34504E9535f5218A8f2",
       weth: "0x73Db0a9a3aB2098B57E6A0f1F8Ff497e4adaa412",
