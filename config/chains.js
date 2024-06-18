@@ -252,6 +252,17 @@ const chainsConfig = {
       rpc: "https://2222.rpc.vialabs.io/",
       explorer: "https://atomscan.com/kava/"
     },
+    "1997": { // Kyoto Mainnet
+      name: "Kyoto Mainnet",
+      network: "mainnet",
+      type: "evm",
+      message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+      featureGateway: "",
+      feeToken: "",
+      weth: "",
+      rpc: "https://1997.rpc.vialabs.io/",
+      explorer: "https://kyotoscan.io"
+    },
     "59144": { // Linea Mainnet
       name: "Linea Mainnet",
       network: "mainnet",

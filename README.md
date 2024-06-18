@@ -154,6 +154,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Harmony Mainnet         | 1666600000  | 0x440AA59AC28460a43537a2eA892d96Acd8eaBdb0 |
 | IoTeX Mainnet           | 4689        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Kava Mainnet            | 2222        | 0x9E0f7B09576D1F0cBfF1f834A8e5bcc3Db1EF804 |
+| Kyoto Mainnet           | 1997        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Linea Mainnet           | 59144       | 0x6C5AD5e9763Ee118f6c6359e00EeF6ECfA84395b |
 | Mainnetz Mainnet        | 2016        | 0x1274E183AA921972531414Df700E673dE1Be878D |
 | Mantle Mainnet          | 5000        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
