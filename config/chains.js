@@ -493,12 +493,12 @@ const chainsConfig = {
       type: "evm",
       message: "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F",
       featureGateway: "",
-      feeToken: "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
+      feeToken: "0x3a60C03a86eEAe30501ce1af04a6C04Cf0188700", // @note Circle's proxy, Path to USDC
       paper: "0x9d75f706b986F0075b3778a12153390273dE95eC",
       faucet: "0xc2e7eA22A69Fff2ac96EB9b306A562C9fb299b16",
       weth: "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
       rpc: "https://65100003.rpc.vialabs.io/",
-      explorer: "https://bakerloo.autonity.org/",
+      explorer: "https://piccadilly.autonity.org/",
     },
     "65110000": { // Autonity Devnet
       name: "Autonity Devnet",
