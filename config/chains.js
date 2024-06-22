@@ -487,7 +487,7 @@ const chainsConfig = {
       rpc: "https://1313161555.rpc.vialabs.io/",      
       explorer: "https://explorer.testnet.aurora.dev/"
     },
-    "65100002": { // Autonity Testnet
+    "65100003": { // Autonity Testnet
       name: "Autonity Testnet",
       network: "testnet",
       type: "evm",
