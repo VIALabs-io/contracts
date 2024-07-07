@@ -194,6 +194,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Dojima Testnet              | 1401       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Ethereum Holesky            | 17000      | 0x668de98389d5d6C9064E40Cfda2FC6471EDDE7ff |
 | Ethereum Sepolia            | 11155111   | 0xF2AA17F92d4D9Be1c0b0D2A3235A06143A2D729f |
+| Etherlink Testnet           | 128123     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Fantom Testnet              | 4002       | 0x48964a49B5826DB6Cb8d8ed0dAf93eEeD734b923 |
 | Frame Testnet               | 68840142   | 0xCb69924aDf996315aDcd9051ccE2B572dD9450a9 |
 | Gauss Testnet               | 1452       | 0xcbC2d50FA324c187adcf4a186fCb7EcC092E0758 |
@@ -212,6 +213,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Linea Testnet               | 59140      | 0x0eefCF172F7e5C04A8d565f4e955968221fDb18f |
 | Mainnetz Testnet            | 9768       | 0x714c9202B3B5AF0C0Ad844c2a71803cebBFD3AF5 |
 | Mantle Testnet              | 5001       | 0x02894D48c53Ad4AF56ab9624A07153C4fc379D9C |
+| Merlin Testnet              | 686868     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Metis Testnet               | 599        | 0x8E872249C1D7c533bCDC04f5ac124eCa603E0b6D |
 | Neon Testnet                | 245022926  | 0x566B40Dd59A868c244E1353368e08ddaD1C1d74f |
 | Nexis Testnet               | 2370       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
