@@ -216,7 +216,8 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Merlin Testnet              | 686868     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Metis Testnet               | 599        | 0x8E872249C1D7c533bCDC04f5ac124eCa603E0b6D |
 | Neon Testnet                | 245022926  | 0x566B40Dd59A868c244E1353368e08ddaD1C1d74f |
-| Nexis Testnet               | 2370       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Nexis Devnet                | 2371       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Nexis ZK Testnet            | 1001       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Oasis Emerald Testnet       | 42261      | 0x9Ca377D441B01A44fEab8D75B992ab2e4f710BA9 |
 | Oasis Sapphire Testnet      | 23295      | 0x9c90eC23162C818A79B46C79Bb6EBC07C6733919 |
 | OKEx Testnet                | 65         | 0x9744D38d26eF45C31c8D20783671506FebeDBAC4 |
