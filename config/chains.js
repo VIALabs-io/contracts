@@ -492,7 +492,7 @@ const chainsConfig = {
   },
   "65110000": { // Autonity Devnet
     "name": "autonity-devnet",
-    "network": "devnet",
+    "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
     "feeToken": "0xf92De0c98007EBaDa22E138A881710B82C513Da0",
@@ -930,7 +930,7 @@ const chainsConfig = {
   },
   "2371": { // Nexis Devnet
     "name": "nexis-devnet",
-    "network": "devnet",
+    "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
     "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
@@ -1100,7 +1100,7 @@ const chainsConfig = {
   },
   "713715": { // Sei Devnet
     "name": "sei-devnet",
-    "network": "devnet",
+    "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
     "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
@@ -1108,7 +1108,7 @@ const chainsConfig = {
   },
   "81": { // Shibuya Devnet
     "name": "shibuya-devnet",
-    "network": "devnet",
+    "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
     "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
