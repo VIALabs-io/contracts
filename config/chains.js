@@ -458,7 +458,7 @@ const chainsConfig = {
   },
 
   "421614": { // Arbitrum Testnet (Sepolia)
-    "name": "Arbitrum Testnet",
+    "name": "arbitrum-sepolia",
     "network": "testnet",
     "type": "evm",
     "circleTokenMessanger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
@@ -475,7 +475,7 @@ const chainsConfig = {
     "explorer": "https://sepolia.arbiscan.io/"
   },
   "1313161555": { // Aurora Testnet
-    "name": "Aurora Testnet",
+    "name": "aurora-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xA648df7adFa847Cf0149083857ddA1680926899F",
@@ -483,7 +483,7 @@ const chainsConfig = {
     "messageV3": "0x52e1CFE18BD55bb8d885d463DC26D9C365cd316B"
   },
   "65100003": { // Autonity Testnet
-    "name": "Autonity Testnet",
+    "name": "autonity-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -491,7 +491,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "65110000": { // Autonity Devnet
-    "name": "Autonity Devnet",
+    "name": "autonity-devnet",
     "network": "devnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -499,7 +499,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "43113": { // Avalanche Testnet
-    "name": "Avalanche Testnet",
+    "name": "avalanche-testnet",
     "network": "testnet",
     "type": "evm",
     "usdc": "0x5425890298aed601595a70ab815c96711a31bc65",
@@ -510,7 +510,7 @@ const chainsConfig = {
     "messageV3": "0x8f92F60ffFB05d8c64E755e54A216090D8D6Eaf9"
   },
   "84532": { // Base Sepolia
-    "name": "Base Sepolia",
+    "name": "base-sepolia",
     "network": "testnet",
     "type": "evm",
     "usdc": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
@@ -521,7 +521,7 @@ const chainsConfig = {
     "messageV3": "0xE700Ee5d8B7dEc62987849356821731591c048cF"
   },
   "97": { // Binance Testnet
-    "name": "Binance Testnet",
+    "name": "binance-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x768A6c94771EE391C9a996Ff6c30F27190dd0B34",
@@ -529,7 +529,7 @@ const chainsConfig = {
     "messageV3": "0x8eF8870CD5583891bDDcf2555e7833bD087392a3"
   },
   "7771": { // Bitrock Testnet
-    "name": "Bitrock Testnet",
+    "name": "bitrock-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -537,7 +537,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "168587773": { // Blast Testnet
-    "name": "Blast Testnet",
+    "name": "blast-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x765d2951bF4d512a5FDbD6384C4b6aD5ab1b1873",
@@ -545,7 +545,7 @@ const chainsConfig = {
     "messageV3": "0xA95c0BC77Ab8a8EfA3dF00366FFAe5CB1A2cba15"
   },
   "2888": { // Boba Testnet
-    "name": "Boba Testnet",
+    "name": "boba-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x02dA7eeEB722A126CCC53085d489ca0e1BAbc55E",
@@ -553,7 +553,7 @@ const chainsConfig = {
     "messageV3": "0x1Ec7Dfbc9e310768A17145f03f3451f562cEc773"
   },
   "111": { // Bob Testnet
-    "name": "Bob Testnet",
+    "name": "bob-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x17C84459367f9787356b01d7f624Ef0e7E6cA11F",
@@ -561,7 +561,7 @@ const chainsConfig = {
     "messageV3": "0x78CC50562941f385c3d0c5204385c3CA686d85b8"
   },
   "325000": { // Camp Network Testnet
-    "name": "Camp Network Testnet",
+    "name": "camp-network-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -569,7 +569,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "7701": { // Canto Testnet
-    "name": "Canto Testnet",
+    "name": "canto-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x95e86440E6B240fc5d476dE44FB56b763B585B2B",
@@ -577,7 +577,7 @@ const chainsConfig = {
     "messageV3": "0x09FC1B8e1651A0D35258Ab919035d3087245F8f3"
   },
   "44787": { // Celo Testnet
-    "name": "Celo Testnet",
+    "name": "celo-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x3BC1695644Ad2c60f1500cea16A9536AF5DDd38e",
@@ -585,7 +585,7 @@ const chainsConfig = {
     "messageV3": "0xc959284fae7Cc3F41367dA2Df595b7267597094C"
   },
   "1115": { // Core Testnet
-    "name": "Core Testnet",
+    "name": "core-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -593,7 +593,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "71": { // Conflux Testnet
-    "name": "Conflux Testnet",
+    "name": "conflux-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -601,7 +601,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "338": { // Cronos Testnet
-    "name": "Cronos Testnet",
+    "name": "cronos-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x7EfE948491324f159D9BAfB989Db8ACe8e647685",
@@ -609,7 +609,7 @@ const chainsConfig = {
     "messageV3": "0x8f92F60ffFB05d8c64E755e54A216090D8D6Eaf9"
   },
   "282": { // Cronoszk Testnet
-    "name": "Cronoszk Testnet",
+    "name": "cronoszk-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0000000000000000000000000000000000000000",
@@ -617,7 +617,7 @@ const chainsConfig = {
     "messageV3": "0xCf421b3497a28b4215F09e5bAf862C3a2532d681"
   },
   "111557560": { // Cyber Testnet
-    "name": "Cyber Testnet",
+    "name": "cyber-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -625,7 +625,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "335": { // DFK Testnet
-    "name": "DFK Testnet",
+    "name": "dfk-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -633,7 +633,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "1401": { // Dojima Stagenet
-    "name": "Dojima Stagenet",
+    "name": "dojima-stagenet",
     "network": "stagenet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -641,7 +641,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "3939": { // DOS Testnet
-    "name": "DOS Testnet",
+    "name": "dos-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -649,7 +649,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "5": { // Ethereum Goerli
-    "name": "Ethereum Goerli",
+    "name": "ethereum-goerli",
     "network": "testnet",
     "type": "evm",
     "weth": "0x95e86440E6B240fc5d476dE44FB56b763B585B2B",
@@ -657,7 +657,7 @@ const chainsConfig = {
     "messageV3": "0xae65E2211c4119cf92ee85D1a8c4ec20AdaE8aFE"
   },
   "17000": { // Ethereum Holesky
-    "name": "Ethereum Holesky",
+    "name": "ethereum-holesky",
     "network": "testnet",
     "type": "evm",
     "usdc": "",
@@ -668,7 +668,7 @@ const chainsConfig = {
     "messageV3": "0x668de98389d5d6C9064E40Cfda2FC6471EDDE7ff"
   },
   "11155111": { // Ethereum Sepolia
-    "name": "Ethereum Sepolia",
+    "name": "ethereum-sepolia",
     "network": "testnet",
     "type": "evm",
     "usdc": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
@@ -679,7 +679,7 @@ const chainsConfig = {
     "messageV3": "0xF2AA17F92d4D9Be1c0b0D2A3235A06143A2D729f"
   },
   "128123": { // Etherlink Testnet
-    "name": "Etherlink Testnet",
+    "name": "etherlink-testnet",
     "network": "testnet",
     "type": "evm",
     "usdc": "",
@@ -690,7 +690,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "4002": { // Fantom Testnet
-    "name": "Fantom Testnet",
+    "name": "fantom-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x9364b2FC6f07c123dB5a398aE655DFCf7F445d54",
@@ -698,7 +698,7 @@ const chainsConfig = {
     "messageV3": "0x48964a49B5826DB6Cb8d8ed0dAf93eEeD734b923"
   },
   "114": { // Flare Testnet
-    "name": "Flare Testnet",
+    "name": "flare-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -706,7 +706,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "701": { // Fomo Testnet
-    "name": "Fomo Testnet",
+    "name": "fomo-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
@@ -714,7 +714,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "68840142": { // Frame Testnet
-    "name": "Frame Testnet",
+    "name": "frame-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xf25D6E21554a5503DEA695acdad7586778a89C39",
@@ -722,7 +722,7 @@ const chainsConfig = {
     "messageV3": "0xCb69924aDf996315aDcd9051ccE2B572dD9450a9"
   },
   "2522": { // Fraxtal Testnet
-    "name": "Fraxtal Testnet",
+    "name": "fraxtal-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
@@ -730,7 +730,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "123": { // Fuse Testnet
-    "name": "Fuse Testnet",
+    "name": "fuse-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -738,7 +738,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "1452": { // Gauss Testnet
-    "name": "Gauss Testnet",
+    "name": "gauss-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0000000000000000000000000000000000000000",
@@ -746,7 +746,7 @@ const chainsConfig = {
     "messageV3": "0xcbC2d50FA324c187adcf4a186fCb7EcC092E0758"
   },
   "123420111": { // Gelato OP Celestia Testnet
-    "name": "Gelato OP Celestia Testnet",
+    "name": "gelato-op-celestia-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x765d2951bF4d512a5FDbD6384C4b6aD5ab1b1873",
@@ -754,7 +754,7 @@ const chainsConfig = {
     "messageV3": "0xAede7a77D49Eb88Cb129896d69f0E66ee51D44AC"
   },
   "42069": { // Gelato OP Testnet
-    "name": "Gelato OP Testnet",
+    "name": "gelato-op-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x765d2951bF4d512a5FDbD6384C4b6aD5ab1b1873",
@@ -762,7 +762,7 @@ const chainsConfig = {
     "messageV3": "0xAede7a77D49Eb88Cb129896d69f0E66ee51D44AC"
   },
   "1261120": { // Gelato Zkatana Testnet
-    "name": "Gelato Zkatana Testnet",
+    "name": "gelato-zkatana-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x765d2951bF4d512a5FDbD6384C4b6aD5ab1b1873",
@@ -770,7 +770,7 @@ const chainsConfig = {
     "messageV3": "0xAede7a77D49Eb88Cb129896d69f0E66ee51D44AC"
   },
   "10200": { // Gnosis Testnet
-    "name": "Gnosis Testnet",
+    "name": "gnosis-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x88d4E6cb8955e5b406dbac9e4BCd101082947433",
@@ -778,7 +778,7 @@ const chainsConfig = {
     "messageV3": "0x88776c0FbaCA594938C6B87a42a69D530A8CCDF3"
   },
   "1666700000": { // Harmony Testnet
-    "name": "Harmony Testnet",
+    "name": "harmony-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xbF1Bb50a9607d2191aB4e5925B48f44306000A05",
@@ -786,7 +786,7 @@ const chainsConfig = {
     "messageV3": "0x9cAa65b69Ad8118C3d1454393F5b96292FE3C0aB"
   },
   "1663": { // Horizen Testnet
-    "name": "Horizen Testnet",
+    "name": "horizen-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x291BcefF63A9A2726160391928EFCEe34014d58A",
@@ -794,7 +794,7 @@ const chainsConfig = {
     "messageV3": "0xA95c0BC77Ab8a8EfA3dF00366FFAe5CB1A2cba15"
   },
   "13473": { // Immutable Testnet
-    "name": "Immutable Testnet",
+    "name": "immutable-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xfA8d81973f29b2555933027Ac9751740B9fFa047",
@@ -802,7 +802,7 @@ const chainsConfig = {
     "messageV3": "0xC7E87B6614DAb7a4B3Feaa9e56a2cA29A84AD0a8"
   },
   "4690": { // IoTeX Testnet
-    "name": "IoTeX Testnet",
+    "name": "iotex-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -810,7 +810,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "10081": { // Japan Open Chain Testnet
-    "name": "Japan Open Chain Testnet",
+    "name": "japan-open-chain-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -818,7 +818,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "167008": { // Katla Testnet
-    "name": "Katla Testnet",
+    "name": "katla-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x291BcefF63A9A2726160391928EFCEe34014d58A",
@@ -826,7 +826,7 @@ const chainsConfig = {
     "messageV3": "0xA95c0BC77Ab8a8EfA3dF00366FFAe5CB1A2cba15"
   },
   "2221": { // Kava Testnet
-    "name": "Kava Testnet",
+    "name": "kava-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xc5f8fbE61aF2b5f0DB8A51e10133062e54F77947",
@@ -834,7 +834,7 @@ const chainsConfig = {
     "messageV3": "0xd577fcBee5734c2da5e0063fF1df38845DaA7117"
   },
   "1001": { // Klaytn Testnet
-    "name": "Klaytn Testnet",
+    "name": "klaytn-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x3413714B95c7A087517B7a8a791627F5a91A7712",
@@ -842,7 +842,7 @@ const chainsConfig = {
     "messageV3": "0xdCa897f920Df8015169838c428479D5e3d5Bf526"
   },
   "1998": { // Kyoto Testnet
-    "name": "Kyoto Testnet",
+    "name": "kyoto-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x73Db0a9a3aB2098B57E6A0f1F8Ff497e4adaa412",
@@ -850,7 +850,7 @@ const chainsConfig = {
     "messageV3": "0xdCa897f920Df8015169838c428479D5e3d5Bf526"
   },
   "59140": { // Linea Testnet
-    "name": "Linea Testnet",
+    "name": "linea-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x167Be5395286327da2E376f3DF2bF46ED42209B0",
@@ -858,14 +858,14 @@ const chainsConfig = {
     "messageV3": "0x0eefCF172F7e5C04A8d565f4e955968221fDb18f"
   },
   "9768": { // Mainnetz Testnet
-    "name": "Mainnetz Testnet",
+    "name": "mainnetz-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xCdc7D21D3F75809ec8CC3030AB8018A98AD0b296",
     "feeToken": "0x714853D6197e560013ee161fC259b87E8B3cA7E9"
   },
   "3441006": { // Manta Pacific Testnet
-    "name": "Manta Pacific Testnet",
+    "name": "manta-pacific-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -873,7 +873,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "5001": { // Mantle Testnet
-    "name": "Mantle Testnet",
+    "name": "mantle-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x67E320b239f6c99eB938Dd993F1c0fE61edcc9D8",
@@ -881,7 +881,7 @@ const chainsConfig = {
     "messageV3": "0x02894D48c53Ad4AF56ab9624A07153C4fc379D9C"
   },
   "686868": { // Merlin Testnet
-    "name": "Merlin Testnet",
+    "name": "merlin-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -889,7 +889,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "83": { // Meter Testnet
-    "name": "Meter Testnet",
+    "name": "meter-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xa7719d49246730e2ec6B69aAfC4873E74053b2eB",
@@ -897,7 +897,7 @@ const chainsConfig = {
     "messageV3": "0x01849193F33426C5b9C676757E9324a0f0761E6a"
   },
   "599": { // Metis Testnet
-    "name": "Metis Testnet",
+    "name": "metis-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xa13ad1Cf753f31e405a60eb3204A941fBb035bCf",
@@ -905,7 +905,7 @@ const chainsConfig = {
     "messageV3": "0x8E872249C1D7c533bCDC04f5ac124eCa603E0b6D"
   },
   "919": { // Mode Testnet
-    "name": "Mode Testnet",
+    "name": "mode-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
@@ -913,7 +913,7 @@ const chainsConfig = {
     "messageV3": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f"
   },
   "1287": { // Moonalpha Testnet
-    "name": "Moonalpha Testnet",
+    "name": "moonalpha-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -921,7 +921,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "245022926": { // Neon Testnet
-    "name": "Neon Testnet",
+    "name": "neon-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x11adC2d986E334137b9ad0a0F290771F31e9517F",
@@ -929,7 +929,7 @@ const chainsConfig = {
     "messageV3": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f"
   },
   "2371": { // Nexis Devnet
-    "name": "Nexis Devnet",
+    "name": "nexis-devnet",
     "network": "devnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -937,7 +937,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "1001": { // Nexis ZK Testnet
-    "name": "Nexis ZK Testnet",
+    "name": "nexis-zk-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -945,7 +945,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "42261": { // Oasis Emerald Testnet
-    "name": "Oasis Emerald Testnet",
+    "name": "oasis-emerald-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0000000000000000000000000000000000000000",
@@ -953,7 +953,7 @@ const chainsConfig = {
     "messageV3": "0x9Ca377D441B01A44fEab8D75B992ab2e4f710BA9"
   },
   "23295": { // Oasis Sapphire Testnet
-    "name": "Oasis Sapphire Testnet",
+    "name": "oasis-sapphire-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xc9cd1956655B8085b9e53dA7F5813B75B95F69d3",
@@ -961,7 +961,7 @@ const chainsConfig = {
     "messageV3": "0x9c90eC23162C818A79B46C79Bb6EBC07C6733919"
   },
   "9372": { // Oasys Testnet
-    "name": "Oasys Testnet",
+    "name": "oasys-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -969,7 +969,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "65": { // Okex Testnet
-    "name": "Okex Testnet",
+    "name": "okex-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x967ccdcdf974DCEAb42F20FB61Aafb00D64f0827",
@@ -977,7 +977,7 @@ const chainsConfig = {
     "messageV3": "0x9744D38d26eF45C31c8D20783671506FebeDBAC4"
   },
   "1945": { // Onus Testnet
-    "name": "Onus Testnet",
+    "name": "onus-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x02dA7eeEB722A126CCC53085d489ca0e1BAbc55E",
@@ -985,7 +985,7 @@ const chainsConfig = {
     "messageV3": "0xF8d80d6E52b5B8484a7CD27a5C0F3D35695c57dF"
   },
   "5611": { // Opbnb Testnet
-    "name": "Opbnb Testnet",
+    "name": "opbnb-testnet",
     "network": "testnet",
     "type": "evm",
     "circleMessageTransmitter": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD",
@@ -995,7 +995,7 @@ const chainsConfig = {
     "messageV3": "0x7bB78097d7e672D65cD6596Ee9b4097CE16AC391"
   },
   "11155420": { // Optimism Sepolia
-    "name": "Optimism Sepolia",
+    "name": "optimism-sepolia",
     "network": "testnet",
     "type": "evm",
     "weth": "0x3574311D950E04A48289DA64759016c26725B180",
@@ -1003,7 +1003,7 @@ const chainsConfig = {
     "messageV3": "0xe511183765E1F325702EF8F3d92046e9d6DF6742"
   },
   "4460": { // Orderly Testnet
-    "name": "Orderly Testnet",
+    "name": "orderly-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1011,7 +1011,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "80001": { // Polygon Testnet
-    "name": "Polygon Testnet",
+    "name": "polygon-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xceaDda135AfB9c841Fd1feE951C111dFbfa3f242",
@@ -1019,7 +1019,7 @@ const chainsConfig = {
     "messageV3": "0x524d9E4cB344A130696B29c182aA5a4A458379B6"
   },
   "1442": { // Polygonzk Testnet
-    "name": "Polygonzk Testnet",
+    "name": "polygonzk-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x32D9c1DA01F221aa0eab4A0771Aaa8E2344ECd35",
@@ -1027,7 +1027,7 @@ const chainsConfig = {
     "messageV3": "0xe72599F2F5C8aA96E578E48A09Bc6C1123fA5783"
   },
   "80002": { // Polygon Amoy
-    "name": "Polygon Amoy",
+    "name": "polygon-amoy",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1035,7 +1035,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "943": { // Pulse Testnet
-    "name": "Pulse Testnet",
+    "name": "pulse-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xBDc1fCaC4c4615b4FbBE8C401BEd6e29D900fDB0",
@@ -1043,7 +1043,7 @@ const chainsConfig = {
     "messageV3": "0x91e26475016B923527B5Ef15789A9768EBA979e6"
   },
   "1918988905": { // Rari Testnet
-    "name": "Rari Testnet",
+    "name": "rari-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1051,7 +1051,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "18233": { // Real Testnet
-    "name": "Real Testnet",
+    "name": "real-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1059,7 +1059,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "17001": { // Redstone Testnet
-    "name": "Redstone Testnet",
+    "name": "redstone-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x167Be5395286327da2E376f3DF2bF46ED42209B0",
@@ -1067,7 +1067,7 @@ const chainsConfig = {
     "messageV3": "0x1Ec7Dfbc9e310768A17145f03f3451f562cEc773"
   },
   "57000": { // Rollux Testnet
-    "name": "Rollux Testnet",
+    "name": "rollux-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x6134465958b5FBF8812fE743534C66D833Fa9046",
@@ -1075,7 +1075,7 @@ const chainsConfig = {
     "messageV3": "0x7bB78097d7e672D65cD6596Ee9b4097CE16AC391"
   },
   "2021": { // Saigon Testnet
-    "name": "Saigon Testnet",
+    "name": "saigon-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1083,7 +1083,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "1992": { // Sanko Testnet
-    "name": "Sanko Testnet",
+    "name": "sanko-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1091,7 +1091,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "534351": { // Scroll Testnet
-    "name": "Scroll Testnet",
+    "name": "scroll-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xD27f1d1093162560A7e17b7fd3A7711Caf6cE666",
@@ -1099,7 +1099,7 @@ const chainsConfig = {
     "messageV3": "0x8Dcb34c02365116565A3d68b97e4ae98F983B9D0"
   },
   "713715": { // Sei Devnet
-    "name": "Sei Devnet",
+    "name": "sei-devnet",
     "network": "devnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1107,7 +1107,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "81": { // Shibuya Devnet
-    "name": "Shibuya Devnet",
+    "name": "shibuya-devnet",
     "network": "devnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1115,7 +1115,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "64165": { // Sonic Testnet
-    "name": "Sonic Testnet",
+    "name": "sonic-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xdCa897f920Df8015169838c428479D5e3d5Bf526",
@@ -1123,7 +1123,7 @@ const chainsConfig = {
     "messageV3": "0xeFaDc14c2DD95D0E6969d0B25EA6e4F830150493"
   },
   "2047": { // Stratos Testnet
-    "name": "Stratos Testnet",
+    "name": "stratos-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x6134465958b5FBF8812fE743534C66D833Fa9046",
@@ -1131,7 +1131,7 @@ const chainsConfig = {
     "messageV3": "0x4a7B33299a21c518d77eb3fF00fd1DC39C452Cba"
   },
   "81": { // Shibuya Testnet
-    "name": "Shibuya Testnet",
+    "name": "shibuya-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1139,7 +1139,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "1073": { // Shimmerevm Testnet
-    "name": "Shimmerevm Testnet",
+    "name": "shimmerevm-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1147,7 +1147,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "167009": { // Taiko Testnet
-    "name": "Taiko Testnet",
+    "name": "taiko-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1155,7 +1155,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "89": { // Viction Testnet
-    "name": "Viction Testnet",
+    "name": "viction-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1163,7 +1163,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "37714555429": { // Xai Testnet
-    "name": "Xai Testnet",
+    "name": "xai-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1171,7 +1171,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "41": { // Telos Testnet
-    "name": "Telos Testnet",
+    "name": "telos-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x02dA7eeEB722A126CCC53085d489ca0e1BAbc55E",
@@ -1179,7 +1179,7 @@ const chainsConfig = {
     "messageV3": "0xF8d80d6E52b5B8484a7CD27a5C0F3D35695c57dF"
   },
   "14333": { // Vitruveo Testnet
-    "name": "Vitruveo Testnet",
+    "name": "vitruveo-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1187,7 +1187,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "195": { // Xlayer Testnet
-    "name": "Xlayer Testnet",
+    "name": "xlayer-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xDb52110E8f15a72Ccf3ce205c30C27bdB846057D",
@@ -1195,7 +1195,7 @@ const chainsConfig = {
     "messageV3": "0x8f554B1b239a57C840d5902D1d901dAFF04F22C2"
   },
   "51": { // XDC Testnet
-    "name": "XDC Testnet",
+    "name": "xdc-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x49AADBE0f1D2ceb77C7f979b4bF35faEa22976B8",
@@ -1203,7 +1203,7 @@ const chainsConfig = {
     "messageV3": "0x00CE686319d401E55c2E7784192EB3A2273Aa9Dc"
   },
   "7001": { // ZetaChain Testnet
-    "name": "ZetaChain Testnet",
+    "name": "zetachain-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0xbd9F6E783a2872f703953F0db1d6D60912F86af4",
@@ -1211,7 +1211,7 @@ const chainsConfig = {
     "messageV3": "0x714c9202B3B5AF0C0Ad844c2a71803cebBFD3AF5"
   },
   "43851": { // ZkFair Testnet
-    "name": "ZkFair Testnet",
+    "name": "zkfair-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
@@ -1219,7 +1219,7 @@ const chainsConfig = {
     "messageV3": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "280": { // Zksync Testnet
-    "name": "Zksync Testnet",
+    "name": "zksync-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x19a41FE14a5931eEd7CAD91d033e14c47e9EFff9",
@@ -1227,7 +1227,7 @@ const chainsConfig = {
     "messageV3": "0xCf421b3497a28b4215F09e5bAf862C3a2532d681"
   },
   "999999999": { // Zora Testnet
-    "name": "Zora Testnet",
+    "name": "zora-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
