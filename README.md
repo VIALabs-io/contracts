@@ -184,19 +184,28 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Base Testnet (Sepolia)      | 84532      | 0xE700Ee5d8B7dEc62987849356821731591c048cF |
 | Binance Testnet             | 97         | 0x8eF8870CD5583891bDDcf2555e7833bD087392a3 |
 | Blast Testnet (Sepolia)     | 168587773  | 0xA95c0BC77Ab8a8EfA3dF00366FFAe5CB1A2cba15 |
-| BitRock Testnet             | 7771       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
+| BitRock Testnet             | 7771       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Bob Testnet                 | 111        | 0x78CC50562941f385c3d0c5204385c3CA686d85b8 |
 | Boba Testnet                | 2888       | 0x1Ec7Dfbc9e310768A17145f03f3451f562cEc773 |
+| Camp Network Testnet        | 325000     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Canto Testnet               | 7701       | 0x09FC1B8e1651A0D35258Ab919035d3087245F8f3 |
 | Celo Testnet                | 44787      | 0xc959284fae7Cc3F41367dA2Df595b7267597094C |
 | Conflux Testnet             | 71         | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Core Testnet                | 1115       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Cronos Testnet              | 338        | 0x8f92F60ffFB05d8c64E755e54A216090D8D6Eaf9 |
 | CronosZK Testnet            | 282        | 0xCf421b3497a28b4215F09e5bAf862C3a2532d681 |
+| Cyber Testnet               | 111557560  | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
+| DeFi Kingdoms Testnet       | 335        | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
 | Dojima Testnet              | 1401       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| DOS Testnet                 | 3939       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Ethereum Holesky            | 17000      | 0x668de98389d5d6C9064E40Cfda2FC6471EDDE7ff |
 | Ethereum Sepolia            | 11155111   | 0xF2AA17F92d4D9Be1c0b0D2A3235A06143A2D729f |
 | Etherlink Testnet           | 128123     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Fantom Testnet              | 4002       | 0x48964a49B5826DB6Cb8d8ed0dAf93eEeD734b923 |
+| Flare Testnet               | 114        | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
 | Frame Testnet               | 68840142   | 0xCb69924aDf996315aDcd9051ccE2B572dD9450a9 |
+| Fraxtal Testnet             | 2522       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Fuse Testnet                | 123        | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Gauss Testnet               | 1452       | 0xcbC2d50FA324c187adcf4a186fCb7EcC092E0758 |
 | Gelato OP Celestia Testnet  | 123420111  | 0xAede7a77D49Eb88Cb129896d69f0E66ee51D44AC |
 | Gelato OP Testnet           | 42069      | 0xAede7a77D49Eb88Cb129896d69f0E66ee51D44AC |
@@ -206,38 +215,56 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Horizen Testnet             | 1663       | 0xA95c0BC77Ab8a8EfA3dF00366FFAe5CB1A2cba15 |
 | Immutable Testnet           | 13473      | 0xC7E87B6614DAb7a4B3Feaa9e56a2cA29A84AD0a8 |
 | IoTeX Testnet               | 4690       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Japan Open Chain Testnet    | 10081      | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
 | Katla Testnet               | 167008     | 0xA95c0BC77Ab8a8EfA3dF00366FFAe5CB1A2cba15 |
 | Kava Testnet                | 2221       | 0xd577fcBee5734c2da5e0063fF1df38845DaA7117 |
 | Klaytn Testnet              | 1001       | 0xdCa897f920Df8015169838c428479D5e3d5Bf526 |
 | Kyoto Testnet               | 1998       | 0xdCa897f920Df8015169838c428479D5e3d5Bf526 |
 | Linea Testnet               | 59140      | 0x0eefCF172F7e5C04A8d565f4e955968221fDb18f |
 | Mainnetz Testnet            | 9768       | 0x714c9202B3B5AF0C0Ad844c2a71803cebBFD3AF5 |
+| Manta Pacific Testnet       | 3441006    | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Mantle Testnet              | 5001       | 0x02894D48c53Ad4AF56ab9624A07153C4fc379D9C |
 | Merlin Testnet              | 686868     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Meter Testnet               | 83         | 0x01849193F33426C5b9C676757E9324a0f0761E6a |
 | Metis Testnet               | 599        | 0x8E872249C1D7c533bCDC04f5ac124eCa603E0b6D |
+| Mode Testnet                | 919        | 0x0EFafca24E5BbC1C01587B659226B9d600fd671f |
+| Moon Alpha Testnet          | 1287       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Neon Testnet                | 245022926  | 0x566B40Dd59A868c244E1353368e08ddaD1C1d74f |
 | Nexis Devnet                | 2371       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Nexis ZK Testnet            | 1001       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Oasis Emerald Testnet       | 42261      | 0x9Ca377D441B01A44fEab8D75B992ab2e4f710BA9 |
 | Oasis Sapphire Testnet      | 23295      | 0x9c90eC23162C818A79B46C79Bb6EBC07C6733919 |
+| Oasys Testnet               | 9372       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | OKEx Testnet                | 65         | 0x9744D38d26eF45C31c8D20783671506FebeDBAC4 |
 | Onus Testnet                | 1945       | 0xF8d80d6E52b5B8484a7CD27a5C0F3D35695c57dF |
 | opBNB Testnet               | 5611       | 0x7bB78097d7e672D65cD6596Ee9b4097CE16AC391 |
 | Optimism Testnet            | 11155420   | 0xe511183765E1F325702EF8F3d92046e9d6DF6742 |
+| Orderly Testnet             | 4460       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Polygon Testnet (Amoy)      | 80002      | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Polygon zkEVM Testnet       | 1442       | 0xe72599F2F5C8aA96E578E48A09Bc6C1123fA5783 |
 | Pulse Testnet               | 943        | 0x91e26475016B923527B5Ef15789A9768EBA979e6 |
+| Rari Testnet                | 1918988905 | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Re.al Testnet               | 18233      | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
 | Redstone Testnet            | 17001      | 0x1Ec7Dfbc9e310768A17145f03f3451f562cEc773 |
 | Rollux Testnet              | 57000      | 0x7bB78097d7e672D65cD6596Ee9b4097CE16AC391 |
+| Saigon Testnet              | 2021       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Sanko Testnet               | 1992       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Scroll Testnet (Sepolia)    | 534351     | 0x8Dcb34c02365116565A3d68b97e4ae98F983B9D0 |
+| Sei Devnet                  | 713715     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Shibuya Testnet             | 81         | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| ShimmerEVM Testnet          | 1073       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Sonic Testnet               | 64165      | 0xeFaDc14c2DD95D0E6969d0B25EA6e4F830150493 |
 | Stratos Testnet             | 2047       | 0x4a7B33299a21c518d77eb3fF00fd1DC39C452Cba |
+| Taiko Testnet               | 167009     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Viction Testnet             | 89         | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Xai Testnet                 | 37714555429| 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Telos Testnet               | 41         | 0xF8d80d6E52b5B8484a7CD27a5C0F3D35695c57dF |
 | Vitruveo Testnet            | 14333      | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | X-Layer Testnet             | 195        | 0x8f554B1b239a57C840d5902D1d901dAFF04F22C2 |
 | XDC Testnet                 | 51         | 0x00CE686319d401E55c2E7784192EB3A2273Aa9Dc |
 | ZetaChain Testnet           | 7001       | 0x714c9202B3B5AF0C0Ad844c2a71803cebBFD3AF5 |
 | zkSync Testnet              | 280        | 0xCf421b3497a28b4215F09e5bAf862C3a2532d681 |
+| Zora Testnet                | 999999999  | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 
 ## Examples
 
