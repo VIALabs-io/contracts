@@ -1011,14 +1011,6 @@ const chainsConfig = {
     "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
     "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
-  "80001": { // Polygon Testnet
-    "name": "polygon-testnet",
-    "network": "testnet",
-    "type": "evm",
-    "weth": "0xceaDda135AfB9c841Fd1feE951C111dFbfa3f242",
-    "feeToken": "0x489B21556865712b1AaCF04Df8197488d940aB18",
-    "message": "0x524d9E4cB344A130696B29c182aA5a4A458379B6"
-  },
   "1442": { // Polygonzk Testnet
     "name": "polygonzk-testnet",
     "network": "testnet",
@@ -1027,8 +1019,8 @@ const chainsConfig = {
     "feeToken": "0x9B14EA7C553F92cfC782951d06Cf1d48fF33E429",
     "message": "0xe72599F2F5C8aA96E578E48A09Bc6C1123fA5783"
   },
-  "80002": { // Polygon Amoy
-    "name": "polygon-amoy",
+  "80002": { // Polygon Testnet (Amoy)
+    "name": "polygon-testnet",
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
