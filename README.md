@@ -196,7 +196,6 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | CronosZK Testnet            | 282        | 0xCf421b3497a28b4215F09e5bAf862C3a2532d681 |
 | Cyber Testnet               | 111557560  | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
 | DeFi Kingdoms Testnet       | 335        | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
-| Dojima Testnet              | 1401       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | DOS Testnet                 | 3939       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Ethereum Holesky            | 17000      | 0x668de98389d5d6C9064E40Cfda2FC6471EDDE7ff |
 | Ethereum Sepolia            | 11155111   | 0xF2AA17F92d4D9Be1c0b0D2A3235A06143A2D729f |
@@ -223,7 +222,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Linea Testnet               | 59140      | 0x0eefCF172F7e5C04A8d565f4e955968221fDb18f |
 | Mainnetz Testnet            | 9768       | 0x714c9202B3B5AF0C0Ad844c2a71803cebBFD3AF5 |
 | Manta Pacific Testnet       | 3441006    | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
-| Mantle Testnet              | 5001       | 0x02894D48c53Ad4AF56ab9624A07153C4fc379D9C |
+| Mantle Testnet              | 5003       | 0x9d75f706b986F0075b3778a12153390273dE95eC |
 | Merlin Testnet              | 686868     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Meter Testnet               | 83         | 0x01849193F33426C5b9C676757E9324a0f0761E6a |
 | Metis Testnet               | 599        | 0x8E872249C1D7c533bCDC04f5ac124eCa603E0b6D |

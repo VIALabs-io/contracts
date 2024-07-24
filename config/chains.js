@@ -873,13 +873,13 @@ const chainsConfig = {
     "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
     "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
-  "5001": { // Mantle Testnet
+  "5003": { // Mantle Testnet
     "name": "mantle-testnet",
     "network": "testnet",
     "type": "evm",
-    "weth": "0x67E320b239f6c99eB938Dd993F1c0fE61edcc9D8",
-    "feeToken": "0x0135c25Bd3e88b1aac5FDC6f16FEe2C63d967f9d",
-    "message": "0x02894D48c53Ad4AF56ab9624A07153C4fc379D9C"
+    "weth": "0x78CC50562941f385c3d0c5204385c3CA686d85b8",
+    "feeToken": "0xc2e7eA22A69Fff2ac96EB9b306A562C9fb299b16",
+    "message": "0x9d75f706b986F0075b3778a12153390273dE95eC"
   },
   "686868": { // Merlin Testnet
     "name": "merlin-testnet",
