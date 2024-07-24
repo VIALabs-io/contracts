@@ -1011,13 +1011,13 @@ const chainsConfig = {
     "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
     "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
-  "1442": { // Polygonzk Testnet
+  "2442": { // Polygonzk Testnet
     "name": "polygonzk-testnet",
     "network": "testnet",
     "type": "evm",
-    "weth": "0x32D9c1DA01F221aa0eab4A0771Aaa8E2344ECd35",
-    "feeToken": "0x9B14EA7C553F92cfC782951d06Cf1d48fF33E429",
-    "message": "0xe72599F2F5C8aA96E578E48A09Bc6C1123fA5783"
+    "weth": "",
+    "feeToken": "",
+    "message": ""
   },
   "80002": { // Polygon Testnet (Amoy)
     "name": "polygon-testnet",
@@ -1050,14 +1050,6 @@ const chainsConfig = {
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
     "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
     "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
-  },
-  "17001": { // Redstone Testnet
-    "name": "redstone-testnet",
-    "network": "testnet",
-    "type": "evm",
-    "weth": "0x167Be5395286327da2E376f3DF2bF46ED42209B0",
-    "feeToken": "0xA95c0BC77Ab8a8EfA3dF00366FFAe5CB1A2cba15",
-    "message": "0x1Ec7Dfbc9e310768A17145f03f3451f562cEc773"
   },
   "57000": { // Rollux Testnet
     "name": "rollux-testnet",
@@ -1211,13 +1203,13 @@ const chainsConfig = {
     "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
     "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
-  "280": { // Zksync Testnet
+  "300": { // Zksync Testnet
     "name": "zksync-testnet",
     "network": "testnet",
     "type": "evm",
-    "weth": "0x19a41FE14a5931eEd7CAD91d033e14c47e9EFff9",
-    "feeToken": "0xf6799eCdeCD7F96EA13bc3259852a3a4C47d859E",
-    "message": "0xCf421b3497a28b4215F09e5bAf862C3a2532d681"
+    "weth": "",
+    "feeToken": "",
+    "message": ""
   },
   "999999999": { // Zora Testnet
     "name": "zora-testnet",

@@ -240,11 +240,10 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Optimism Testnet            | 11155420   | 0xe511183765E1F325702EF8F3d92046e9d6DF6742 |
 | Orderly Testnet             | 4460       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Polygon Testnet (Amoy)      | 80002      | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
-| Polygon zkEVM Testnet       | 1442       | 0xe72599F2F5C8aA96E578E48A09Bc6C1123fA5783 |
+| Polygon zkEVM Testnet       | 2442       |  |
 | Pulse Testnet               | 943        | 0x91e26475016B923527B5Ef15789A9768EBA979e6 |
 | Rari Testnet                | 1918988905 | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Re.al Testnet               | 18233      | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
-| Redstone Testnet            | 17001      | 0x1Ec7Dfbc9e310768A17145f03f3451f562cEc773 |
 | Rollux Testnet              | 57000      | 0x7bB78097d7e672D65cD6596Ee9b4097CE16AC391 |
 | Saigon Testnet              | 2021       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Sanko Testnet               | 1992       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
@@ -262,7 +261,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | X-Layer Testnet             | 195        | 0x8f554B1b239a57C840d5902D1d901dAFF04F22C2 |
 | XDC Testnet                 | 51         | 0x00CE686319d401E55c2E7784192EB3A2273Aa9Dc |
 | ZetaChain Testnet           | 7001       | 0x714c9202B3B5AF0C0Ad844c2a71803cebBFD3AF5 |
-| zkSync Testnet              | 280        | 0xCf421b3497a28b4215F09e5bAf862C3a2532d681 |
+| zkSync Testnet              | 300        |  |
 | Zora Testnet                | 999999999  | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 
 ## Examples
