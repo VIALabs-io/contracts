@@ -225,7 +225,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Mantle Testnet              | 5003       | 0x9d75f706b986F0075b3778a12153390273dE95eC |
 | Merlin Testnet              | 686868     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Meter Testnet               | 83         | 0x01849193F33426C5b9C676757E9324a0f0761E6a |
-| Metis Testnet               | 599        | 0x8E872249C1D7c533bCDC04f5ac124eCa603E0b6D |
+| Metis Testnet               | 59902      | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Mode Testnet                | 919        | 0x0EFafca24E5BbC1C01587B659226B9d600fd671f |
 | Moon Alpha Testnet          | 1287       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Neon Testnet                | 245022926  | 0x566B40Dd59A868c244E1353368e08ddaD1C1d74f |

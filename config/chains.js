@@ -897,13 +897,13 @@ const chainsConfig = {
     "feeToken": "0x1d240A79fc3d597d3C90d54A483207dEAa58CD90",
     "message": "0x01849193F33426C5b9C676757E9324a0f0761E6a"
   },
-  "599": { // Metis Testnet
+  "59902": { // Metis Testnet
     "name": "metis-testnet",
     "network": "testnet",
     "type": "evm",
-    "weth": "0xa13ad1Cf753f31e405a60eb3204A941fBb035bCf",
-    "feeToken": "0xd4Bb993ec7c9beE84930064C691cFd8603138551",
-    "message": "0x8E872249C1D7c533bCDC04f5ac124eCa603E0b6D"
+    "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
+    "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
+    "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "919": { // Mode Testnet
     "name": "mode-testnet",
