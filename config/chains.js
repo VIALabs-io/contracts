@@ -1059,6 +1059,14 @@ const chainsConfig = {
     "feeToken": "0x17C84459367f9787356b01d7f624Ef0e7E6cA11F",
     "message": "0x7bB78097d7e672D65cD6596Ee9b4097CE16AC391"
   },
+  "31": { // Rootstock Testnet
+    "name": "rootstock-testnet",
+    "network": "testnet",
+    "type": "evm",
+    "weth": "0x8DE416ABd87307f966a5655701F2f78012585225",
+    "feeToken": "0x78CC50562941f385c3d0c5204385c3CA686d85b8",
+    "message": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f"
+  },
   "2021": { // Saigon Testnet
     "name": "saigon-testnet",
     "network": "testnet",

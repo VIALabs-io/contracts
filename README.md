@@ -245,6 +245,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Rari Testnet                | 1918988905 | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Re.al Testnet               | 18233      | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
 | Rollux Testnet              | 57000      | 0x7bB78097d7e672D65cD6596Ee9b4097CE16AC391 |
+| Rootstock Testnet           | 31         | 0x0EFafca24E5BbC1C01587B659226B9d600fd671f |
 | Saigon Testnet              | 2021       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Sanko Testnet               | 1992       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Scroll Testnet (Sepolia)    | 534351     | 0x8Dcb34c02365116565A3d68b97e4ae98F983B9D0 |
