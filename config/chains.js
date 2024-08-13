@@ -427,7 +427,7 @@ const chainsConfig = {
     feeToken: "0xFFFFFFFF7D2B0B761Af01Ca8e25242976ac0aD7D",
     weth: "0xAcc15dC74880C9944775448304B263D191c6077F",
   },
-  "1284": { // Moonriver Mainnet
+  "1285": { // Moonriver Mainnet
     name: "Moonriver Mainnet",
     network: "mainnet",
     type: "evm",
@@ -602,7 +602,7 @@ const chainsConfig = {
     feeToken: "0xeCE555d37C37D55a6341b80cF35ef3BC57401d1A",
     weth: "0xBEb654A116aeEf764988DF0C6B4bf67CC869D01b"
   },
-  "148": { // Taiko Mainnet
+  "167000": { // Taiko Mainnet
     name: "Taiko Mainnet",
     network: "mainnet",
     type: "evm",
