@@ -231,7 +231,10 @@ abstract contract MessageClient {
 
     function recoverToken(address _token, uint _amount) public onlyMessageOwner {
         if(_token == address(0)) {
-            payable(msg.sender).transfer(_amount);
+            // payable(msg.sender).transfer(_amount);
+            // @note Zk needs
+            (bool success, ) = payable(msg.sender).call{value: _amount}("");
+            require(success, "Transfer failed");
         } else {
             IERC20cl(_token).transfer(msg.sender, _amount);
         }
