@@ -193,6 +193,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Shimmer EVM Mainnet     | 148         | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Scroll Mainnet          | 534352      | 0x6C5AD5e9763Ee118f6c6359e00EeF6ECfA84395b |
 | Taiko Mainnet           | 167000      | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
+| Telos Mainnet           | 40          | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Viction Mainnet         | 88          | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Vitruveo Mainnet        | 1490        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Xai Mainnet             | 660279      | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
