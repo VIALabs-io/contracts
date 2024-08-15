@@ -154,6 +154,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Conflux Mainnet         | 1030        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Core Mainnet            | 1116        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Cronos Mainnet          | 25          | 0x2224ac62d65453a2317b995fc084e966e4bac2d5 | 
+| CronosZK Mainnet        | 388         | 0x205B6E9a868F26DC18feE372071C5FA42a6Cea3D |
 | Cyber Mainnet           | 7560        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Ethereum Mainnet        | 1           | 0x7b67dF6728E294db2eb173ac7c738a4627Ae5e11 |
 | Fantom Mainnet          | 250         | 0x72E052Fa7f0788e668965d37B6c38C88703B7859 |
