@@ -183,7 +183,7 @@ const chainsConfig = {
     name: "KCC Mainnet",
     network: "mainnet",
     type: "evm",
-    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    message: "0xf8B8656Ce65Ecf334AcCe299e24E97fB5069c2C8",
     feeToken: "0x0039f574eE5cC39bdD162E9A88e3EB1f111bAF48",
     weth: "0x4446Fc4eb47f2f6586f9fAAb68B3498F86C07521"
   },
@@ -191,7 +191,7 @@ const chainsConfig = {
     name: "Kroma Mainnet",
     network: "mainnet",
     type: "evm",
-    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    message: "0xf8B8656Ce65Ecf334AcCe299e24E97fB5069c2C8",
     feeToken: "0x0257e4d92C00C9EfcCa1d641b224d7d09cfa4522",
     weth: "0x4200000000000000000000000000000000000001"
   },
