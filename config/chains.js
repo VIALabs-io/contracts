@@ -3,6 +3,473 @@
 // security-contact: atlas@vialabs.io
 
 const chainsConfig = {
+  "2649": { // Ailayer Mainnet
+    name: "Ailayer Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: ""
+  },
+  "10241024": { // Alienx Mainnet
+    name: "Alienx Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x14B90E36Ca85D8B563430C0940E80d3A040285cC",
+    weth: "0xa9b181EB9456170086f9C51AeEcD0511Aa2609e6"
+  },
+  "888888888": { // Ancient8 Mainnet
+    name: "Ancient8 Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+    weth: "0x4200000000000000000000000000000000000006"
+  },
+  "213": { // B2network Mainnet
+    name: "B2network Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x4200000000000000000000000000000000000006",
+    weth: "0x681202351a488040Fa4FdCc24188AfB582c9DD62"
+  },
+  "4337": { // Beam Mainnet
+    name: "Beam Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x76BF5E7d2Bcb06b1444C0a2742780051D8D0E304",
+    weth: "0xD51BFa777609213A653a2CD067c9A0132a2D316A"
+  },
+  "11501": { // Bevm Mainnet
+    name: "Bevm Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0xa67ED736649F2958A35fd249a584151056b4b745",
+    weth: "0xB5136FEba197f5fF4B765E5b50c74db717796dcD"
+  },
+  "3068": { // Bifrost Mainnet
+    name: "Bifrost Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x640952E7984f2ECedeAd8Fd97aA618Ab1210A21C",
+    weth: "0x1c1b06405058AbE02e4748753aeD1458BEFEE3B9"
+  },
+  "32520": { // Bitgert Mainnet
+    name: "Bitgert Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: ""
+  },
+  "200901": { // Bitlayer Mainnet
+    name: "Bitlayer Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0xd302be00075a4364df7c53e64638e64fa6a9585c"
+  },
+  "7171": { // Bitrock Mainnet
+    name: "Bitrock Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0xD647a6E1F898c39bA594443c19De0872EA935310",
+    weth: "0x413f0E3A440abA7A15137F4278121450416882d5"
+  },
+  "199": { // BitTorrent Mainnet
+    name: "BitTorrent Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0xCa424b845497f7204D9301bd13Ff87C0E2e86FCF",
+    weth: "0x0000000000000000000000000000000000001010"
+  },
+  "820": { // Callisto Mainnet
+    name: "Callisto Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0xbf6c50889d3a620eb42C0F188b65aDe90De958c4",
+    weth: "0xF5AD6F6EDeC824C7fD54A66d241a227F6503aD3a"
+  },
+  "9980": { // Combo Mainnet
+    name: "Combo Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x7c6b91d9be155a6db01f749217d76ff02a7227f2",
+    weth: "0x4200000000000000000000000000000000000006"
+  },
+  "666666666": { // Degen Mainnet
+    name: "Degen Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0xAa58Cc585b8FC7D6C3c67e9847205AD6B8603929",
+    weth: "0xEb54dACB4C2ccb64F8074eceEa33b5eBb38E5387"
+  },
+  "2000": { // Dogechain Mainnet
+    name: "Dogechain Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+    weth: "0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101"
+  },
+  "10001": { // EthereumPOW Mainnet
+    name: "EthereumPOW Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x2AD7868CA212135C6119FD7AD1Ce51CFc5702892",
+    weth: "0x7Bf88d2c0e32dE92CdaF2D43CcDc23e8Edfd5990"
+  },
+  "984122": { // Forma Mainnet
+    name: "Forma Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0xD5eacE1274dBF70960714F513db207433615a263"
+  },
+  "33979": { // Funkichain Mainnet
+    name: "Funkichain Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x4200000000000000000000000000000000000006"
+  },
+  "32659": { // Fusion Mainnet
+    name: "Fusion Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x8a20c13b42d7fe418f10f922f2cee06246c24269",
+    weth: "0x8fdc02dc969a22c02ddffd3d8b547fab3d7702fe"
+  },
+  "530": { // FXCore Mainnet
+    name: "FXCore Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: ""
+  },
+  "1625": { // Gravity Mainnet
+    name: "Gravity Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD"
+  },
+  "2911": { // Hychain Mainnet
+    name: "Hychain Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x2b1499D631BFFb29EeD7749b12cBa754273d6da7"
+  },
+  "321": { // KCC Mainnet
+    name: "KCC Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x0039f574eE5cC39bdD162E9A88e3EB1f111bAF48",
+    weth: "0x4446Fc4eb47f2f6586f9fAAb68B3498F86C07521"
+  },
+  "255": { // Kroma Mainnet
+    name: "Kroma Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x0257e4d92C00C9EfcCa1d641b224d7d09cfa4522",
+    weth: "0x4200000000000000000000000000000000000001"
+  },
+  "12324": { // L3X Mainnet
+    name: "L3X Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0xD3f8b9D33b159E8f5141d28880b216d31B00ee63"
+  },
+  "56026": { // Lambda Mainnet
+    name: "Lambda Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x4200000000000000000000000000000000000006"
+  },
+  "1890": { // Lightlink Mainnet
+    name: "Lightlink Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x81A1f39f7394c4849E4261Aa02AaC73865d13774"
+  },
+  "1135": { // Lisk Mainnet
+    name: "Lisk Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x4200000000000000000000000000000000000006"
+  },
+  "5151706": { // Loot Mainnet
+    name: "Loot Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: ""
+  },
+  "42": { // Lukso Mainnet
+    name: "Lukso Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0xF9506457473bFcc285a22C7Ea42e88ABA2b888EE"
+  },
+  "8866": { // Lumio Mainnet
+    name: "Lumio Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x1C93569537a52c144b6B24640F72d74b6c1B0f3C",
+    weth: "0x4200000000000000000000000000000000000006"
+  },
+  "22776": { // Map Mainnet
+    name: "Map Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x13cb04d4a5dfb6398fc5ab005a6c84337256ee23"
+  },
+  "1750": { // Metal Mainnet
+    name: "Metal Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x4200000000000000000000000000000000000006"
+  },
+  "185": { // Mint Mainnet
+    name: "Mint Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0xb62F35B9546A908d11c5803ecBBA735AbC3E3eaE",
+    weth: "0x4200000000000000000000000000000000000006"
+  },
+  "4078": { // Muster Mainnet
+    name: "Muster Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x869Bf8814d77106323745758135b999D34C79a87"
+  },
+  "18686": { // MXC Mainnet
+    name: "MXC Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0xcBCE60BAD702026d6385E5f449e44099A655d14f"
+  },
+  "4061": { // Nahmii Mainnet
+    name: "Nahmii Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x4200000000000000000000000000000000000006"
+  },
+  "6699": { // OX Chain Mainnet
+    name: "OX Chain Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0xe0009848520C305C92eB13EAdd5676095f82Ab5f"
+  },
+  "66": { // OKT Mainnet
+    name: "OKT Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x96C8b0297d1a07a31Ea402Bc750aA2BD59c873f8",
+    feeToken: "0xc946DAf81b08146B1C7A8Da2A851Ddf2B3EAaf85",
+    weth: "0x8F8526dbfd6E38E3D8307702cA8469Bae6C56C15"
+  },
+  "62050": { // Onchain Mainnet
+    name: "Onchain Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x101d0e162933a65cf36ABdD8e29DB93486F35953"
+  },
+  "20201022": { // Pego Mainnet
+    name: "Pego Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x02F9Bebf5E54968D8Cc2562356C91ECDE135801B",
+    weth: "0x0cF4071940782b640d0b595Cb17bDf3E90869d70"
+  },
+  "70700": { // PlayApex Mainnet
+    name: "PlayApex Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x77684A04145a5924eFCE0D92A7c4a2A2E8C359de"
+  },
+  "12553": { // RSS3 Mainnet
+    name: "RSS3 Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0xE27D019909738D98Ab7F850C05eE07806c30c71D"
+  },
+  "19": { // Songbird Mainnet
+    name: "Songbird Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0xb36e1df3A03d860c6f70731847dFD64E04B0dDB7"
+  },
+  "1234": { // Step Mainnet
+    name: "Step Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+    weth: "0xb58A9d5920AF6aC1a9522B0B10F55dF16686D1b6"
+  },
+  "416": { // SX Network Mainnet
+    name: "SX Network Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0xe2aa35C2039Bd0Ff196A6Ef99523CC0D3972ae3e",
+    weth: "0xaa99bE3356a11eE92c3f099BD7a038399633566f"
+  },
+  "5101": { // Syndicate Mainnet
+    name: "Syndicate Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: ""
+  },
+  "911": { // Taproot Mainnet
+    name: "Taproot Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: ""
+  },
+  "1559": { // Tenet Mainnet
+    name: "Tenet Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x55c32e8aB56021C012AB3d5a586b743664E73DA0",
+    weth: "0xd6cb8a253e12893b0cF39Ca78F7d858652cCa1fe"
+  },
+  "108": { // Thundercore Mainnet
+    name: "Thundercore Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x22e89898A04eaf43379BeB70bf4E38b1faf8A31e",
+    weth: "0x413cEFeA29F2d07B8F2acFA69d92466B9535f717"
+  },
+  "1231": { // Ultron Mainnet
+    name: "Ultron Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x3c4e0fded74876295ca36f62da289f69e3929cc4",
+    weth: "0x3a4f06431457de873b588846d139ec0d86275d54"
+  },
+  "207": { // Vinuchain Mainnet
+    name: "Vinuchain Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0xc0264277fcca5fcfabd41a8bc01c1fcaf8383e41",
+    weth: "0xed8c5530a0a086a12f57275728128a60dff04230"
+  },
+  "888": { // Wanchain Mainnet
+    name: "Wanchain Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x52A9CEA01c4CBDd669883e41758B8eB8e8E2B34b",
+    weth: "0xdabD997aE5E4799BE47d6E69D9431615CBa28f48"
+  },
+  "1111": { // Wemix Mainnet
+    name: "Wemix Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+    weth: "0x7D72b22a74A216Af4a002a1095C8C707d6eC1C5f"
+  },
+  "2702128": { // Xterio Mainnet
+    name: "Xterio Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x4200000000000000000000000000000000000006"
+  },
+  "7000": { // Zeta Mainnet
+    name: "Zeta Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x05BA149A7bd6dC1F937fA9046A9e05C05f3b18b0",
+    weth: "0x5F0b1a82749cb4E2278EC87F8BF6B618dC71a8bf"
+  },
+  "1456": { // Zkbase Mainnet
+    name: "Zkbase Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x205B6E9a868F26DC18feE372071C5FA42a6Cea3D",
+    feeToken: "0x0935D1e004eFd2300CB2511cA118A67C274221B3",
+    weth: "0x678a8587B2bB8566aF7b4f4Fe154686e4DD4E487"
+  },
+  "810180": { // Zklink Mainnet
+    name: "Zklink Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x205B6E9a868F26DC18feE372071C5FA42a6Cea3D",
+    feeToken: "0x1a1A3b2ff016332e866787B311fcB63928464509",
+    weth: "0x8280a4e7D5B3B658ec4580d3Bc30f5e50454F169"
+  },
+
+
+
   "3797": { // AlveyChain Mainnet
     name: "AlveyChain Mainnet",
     network: "mainnet",
@@ -52,7 +519,7 @@ const chainsConfig = {
     message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
     feeToken: "0xa8ce8aee21bc2a48a5ef670afcc9274c7bbbc035",
     weth: "0xe9cc37904875b459fa5d0fe37680d36f1ed55e38"
-  },  
+  },
   "1313161554": { // Aurora Mainnet
     name: "Aurora Mainnet",
     network: "mainnet",
@@ -306,6 +773,14 @@ const chainsConfig = {
     feeToken: "0xCc44eB064CD32AAfEEb2ebb2a47bE0B882383b53",
     weth: "0xF5cB8652a84329A2016A386206761f455bCEDab6",
   },
+  "2911": { // Hychain Mainnet NEW
+    name: "Hychain Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "0x",
+    weth: "0x",
+  },
   "13371": { // Immutable zkEVM Mainnet
     name: "Immutable zkEVM Mainnet",
     network: "mainnet",
@@ -485,7 +960,7 @@ const chainsConfig = {
     featureGateway: "",
     feeToken: "0xc946DAf81b08146B1C7A8Da2A851Ddf2B3EAaf85",
     weth: "0x8F8526dbfd6E38E3D8307702cA8469Bae6C56C15"
-   },
+  },
   "204": { // opBNB Mainnet 
     name: "opBNB Mainnet",
     network: "mainnet",
@@ -1408,7 +1883,7 @@ const chainsConfig = {
     "weth": "",
     "feeToken": "",
     "message": ""
-  }, 
+  },
   "89": { // Viction Testnet
     "name": "viction-testnet",
     "network": "testnet",

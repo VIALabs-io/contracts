@@ -14,6 +14,7 @@ declare namespace ChainsConfig {
     network?: string;
     explorer?: string;
     type?: string;
+    dsid?: string;
   }
 
   interface ChainsConfig {
