@@ -160,7 +160,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Conflux Mainnet         | 1030        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Core Mainnet            | 1116        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Cronos Mainnet          | 25          | 0x2224ac62d65453a2317b995fc084e966e4bac2d5 | 
-| CronosZK Mainnet        | 388         | 0x205B6E9a868F26DC18feE372071C5FA42a6Cea3D |
+| Cronos zkEVM Mainnet    | 388         | 0x205B6E9a868F26DC18feE372071C5FA42a6Cea3D |
 | Cyber Mainnet           | 7560        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Degen Mainnet           | 666666666   | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Dogechain Mainnet       | 2000        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
@@ -271,7 +271,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Conflux Testnet             | 71         | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Core Testnet                | 1115       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Cronos Testnet              | 338        | 0x8f92F60ffFB05d8c64E755e54A216090D8D6Eaf9 |
-| CronosZK Testnet            | 282        | 0xB0A4e1Cb4009292Bde2F3282A242FE0eF5C99f03 |
+| Cronos zkEVM Testnet        | 282        | 0xB0A4e1Cb4009292Bde2F3282A242FE0eF5C99f03 |
 | Cyber Testnet               | 111557560  | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
 | DeFi Kingdoms Testnet       | 335        | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
 | DOS Testnet                 | 3939       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
