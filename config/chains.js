@@ -733,8 +733,8 @@ const chainsConfig = {
     rpc: "https://25.rpc.vialabs.io/",
     explorer: "https://cronos.org/explorer/"
   },
-  "388": { // CronosZK Mainnet
-    name: "CronosZK Mainnet",
+  "388": { // Cronos zkEVM Mainnet
+    name: "Cronos zkEVM Mainnet",
     network: "mainnet",
     type: "evm",
     message: "0x205B6E9a868F26DC18feE372071C5FA42a6Cea3D",
