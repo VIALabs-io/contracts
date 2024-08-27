@@ -379,6 +379,14 @@ const chainsConfig = {
     weth: "0x77684A04145a5924eFCE0D92A7c4a2A2E8C359de",
     featureGateway: "0xC705addd35aBa54f17c9E2cf772F829f2f4D9876",
   },
+  "30": { // Rootstock Mainnet
+    name: "Rootstock Mainnet",
+    network: "mainnet",
+    type: "evm",
+    message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
+    feeToken: "",
+    weth: "0x542FDA317318eBf1d3DeAF76E0B632741a7e677d",
+  },
   "12553": { // RSS3 Mainnet
     name: "RSS3 Mainnet",
     network: "mainnet",

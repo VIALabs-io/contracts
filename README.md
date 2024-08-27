@@ -222,6 +222,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Pulse Mainnet           | 369         | 0xba01F2bA548e69bA26Fd06a3bdf1A7857eeAC435 |
 | Rari Mainnet            | 1380012617  | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Rollux Mainnet          | 570         | 0xf0861412E46E34DaF7A1fe3fe805e7f713cA3bD9 |
+| Rootstock Mainnet       | 30          | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | RSS3 Mainnet            | 12553       | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Sanko Mainnet           | 1996        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Scroll Mainnet          | 534352      | 0x6C5AD5e9763Ee118f6c6359e00EeF6ECfA84395b |
