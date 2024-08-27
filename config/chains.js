@@ -385,7 +385,7 @@ const chainsConfig = {
     type: "evm",
     message: "0x15AC559DA4951c796DB6620fAb286B96840D039A",
     feeToken: "",
-    weth: "0x542FDA317318eBf1d3DeAF76E0B632741a7e677d",
+    weth: "0x542fDA317318eBF1d3DEAf76E0b632741A7e677d",
   },
   "12553": { // RSS3 Mainnet
     name: "RSS3 Mainnet",
