@@ -331,6 +331,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Sei Devnet                  | 713715     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | Shibuya Testnet             | 81         | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 | ShimmerEVM Testnet          | 1073       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
+| Soneium Testnet             | 1946       | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
 | Sonic Testnet               | 64165      | 0xeFaDc14c2DD95D0E6969d0B25EA6e4F830150493 |
 | Stratos Testnet             | 2047       | 0x4a7B33299a21c518d77eb3fF00fd1DC39C452Cba |
 | Taiko Testnet               | 167009     | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
