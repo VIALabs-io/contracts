@@ -1928,7 +1928,7 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "weth": "0xdCa897f920Df8015169838c428479D5e3d5Bf526",
-    "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
+    "feeToken": "0x3a60C03a86eEAe30501ce1af04a6C04Cf0188700", // @note Path to USDC
     "message": "0xeFaDc14c2DD95D0E6969d0B25EA6e4F830150493"
   },
   "2047": { // Stratos Testnet
