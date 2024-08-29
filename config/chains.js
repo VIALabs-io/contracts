@@ -1325,7 +1325,7 @@ const chainsConfig = {
     "circleMessageTransmitter": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD",
     "circleTokenMessanger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
     "weth": "0x32D9c1DA01F221aa0eab4A0771Aaa8E2344ECd35",
-    "feeToken": "0x8dF0A6d3826B9D99c9694c079A10dBb333a9Bb6C",
+    "feeToken": "0x036CbD53842c5426634e7929541eC2318f3dCF7e", // @note Official testnet USDC
     "message": "0xE700Ee5d8B7dEc62987849356821731591c048cF"
   },
   "97": { // Binance Testnet
@@ -1702,7 +1702,7 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "weth": "0xa7719d49246730e2ec6B69aAfC4873E74053b2eB",
-    "feeToken": "0x1d240A79fc3d597d3C90d54A483207dEAa58CD90",
+    "feeToken": "0x2419582bc316eb52217714C6f2F49D371BcBC2ec", // @note Path to USDC
     "message": "0x01849193F33426C5b9C676757E9324a0f0761E6a"
   },
   "59902": { // Metis Testnet
