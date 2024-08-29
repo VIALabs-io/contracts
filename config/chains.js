@@ -1314,7 +1314,7 @@ const chainsConfig = {
     "circleMessageTransmitter": "0xa9fb1b3009dcb79e2fe346c16a604b8fa8ae0a79",
     "circleTokenMessanger": "0xeb08f243e5d3fcff26a9e38ae5520a669f4019d0",
     "weth": "0xD59A1806BAa7f46d1e07A07649784fA682708794",
-    "feeToken": "0x3E445B8fB6ef183Eb32bc1492f379afDAf2b7209",
+    "feeToken": "0x5425890298aed601595a70ab815c96711a31bc65", // @note Official testnet USDC
     "message": "0x8f92F60ffFB05d8c64E755e54A216090D8D6Eaf9"
   },
   "84532": { // Base Sepolia
