@@ -2035,6 +2035,14 @@ const chainsConfig = {
     "feeToken": "0x8cd2556e02f5A136167aE123e313a17481f51904",
     "message": "0x714c9202B3B5AF0C0Ad844c2a71803cebBFD3AF5"
   },
+  "48899": { // Zircuit Testnet
+    "name": "zircuit-testnet",
+    "network": "testnet",
+    "type": "evm",
+    "weth": "0x9d75f706b986F0075b3778a12153390273dE95eC",
+    "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
+    "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
+  },
   "43851": { // ZkFair Testnet
     "name": "zkfair-testnet",
     "network": "testnet",

@@ -343,6 +343,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | X-Layer Testnet             | 195        | 0x8f554B1b239a57C840d5902D1d901dAFF04F22C2 |
 | XDC Testnet                 | 51         | 0x00CE686319d401E55c2E7784192EB3A2273Aa9Dc |
 | ZetaChain Testnet           | 7001       | 0x714c9202B3B5AF0C0Ad844c2a71803cebBFD3AF5 |
+| Zircuit Testnet             | 48899      | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
 | zkSync Testnet              | 300        |  |
 | Zora Testnet                | 999999999  | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F |
 
