@@ -1483,7 +1483,7 @@ const chainsConfig = {
     "circleMessageTransmitter": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD",
     "circleTokenMessanger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
     "weth": "0x6c884e8b8139a87A68b7c4350a9a25305f6de0b6",
-    "feeToken": "0x4B5b1163525A6Cebd9a06F4C386976F2B41A4Bdf",
+    "feeToken": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238", // @note Official Circle testnet USDC
     "message": "0xF2AA17F92d4D9Be1c0b0D2A3235A06143A2D729f"
   },
   "128123": { // Etherlink Testnet
@@ -2040,7 +2040,7 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "weth": "0x9d75f706b986F0075b3778a12153390273dE95eC",
-    "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
+    "feeToken": "0x46bFafc74f8dD1FC4c8Ea963ac881504Ba75D5fD", // @note Path to USDC
     "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "43851": { // ZkFair Testnet
