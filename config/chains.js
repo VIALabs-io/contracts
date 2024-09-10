@@ -1487,7 +1487,8 @@ const chainsConfig = {
     "circleTokenMessanger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
     "weth": "0x6c884e8b8139a87A68b7c4350a9a25305f6de0b6",
     "feeToken": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238", // @note Official Circle testnet USDC
-    "message": "0xF2AA17F92d4D9Be1c0b0D2A3235A06143A2D729f"
+    "message": "0xF2AA17F92d4D9Be1c0b0D2A3235A06143A2D729f",
+    "featureGateway": "0x16c87625983646818C9F0e0651E09f4110a3ce2f"
   },
   "128123": { // Etherlink Testnet
     "name": "etherlink-testnet",
