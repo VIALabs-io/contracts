@@ -1315,7 +1315,8 @@ const chainsConfig = {
     "circleTokenMessanger": "0xeb08f243e5d3fcff26a9e38ae5520a669f4019d0",
     "weth": "0xD59A1806BAa7f46d1e07A07649784fA682708794",
     "feeToken": "0x5425890298aed601595a70ab815c96711a31bc65", // @note Official testnet USDC
-    "message": "0x8f92F60ffFB05d8c64E755e54A216090D8D6Eaf9"
+    "message": "0x8f92F60ffFB05d8c64E755e54A216090D8D6Eaf9",
+    "featureGateway": "0xFc7d19A8409d122079F3E26748357d4DC63E0C5b"
   },
   "84532": { // Base Sepolia
     "name": "base-sepolia",
@@ -1326,7 +1327,8 @@ const chainsConfig = {
     "circleTokenMessanger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
     "weth": "0x32D9c1DA01F221aa0eab4A0771Aaa8E2344ECd35",
     "feeToken": "0x036CbD53842c5426634e7929541eC2318f3dCF7e", // @note Official testnet USDC
-    "message": "0xE700Ee5d8B7dEc62987849356821731591c048cF"
+    "message": "0xE700Ee5d8B7dEc62987849356821731591c048cF",
+    "featureGateway": "0x8eF8870CD5583891bDDcf2555e7833bD087392a3"
   },
   "97": { // Binance Testnet
     "name": "binance-testnet",
@@ -1334,7 +1336,8 @@ const chainsConfig = {
     "type": "evm",
     "weth": "0x768A6c94771EE391C9a996Ff6c30F27190dd0B34",
     "feeToken": "0xD430d3cDFb411810f5E1355C1Be41CF8CCA7e428",
-    "message": "0x8eF8870CD5583891bDDcf2555e7833bD087392a3"
+    "message": "0x8eF8870CD5583891bDDcf2555e7833bD087392a3",
+    "featureGateway": "0xbb3760307d1A5e81dE7639f01F7675EDfc86a773"
   },
   "7771": { // Bitrock Testnet
     "name": "bitrock-testnet",
