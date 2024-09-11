@@ -2020,7 +2020,7 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "weth": "0xDb52110E8f15a72Ccf3ce205c30C27bdB846057D",
-    "feeToken": "0xD07129F94934757A1653de9cb076910de39Fba6F",
+    "feeToken": "0x3a60C03a86eEAe30501ce1af04a6C04Cf0188700", // @note Path to USDC
     "message": "0x8f554B1b239a57C840d5902D1d901dAFF04F22C2"
   },
   "51": { // XDC Testnet
