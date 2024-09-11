@@ -31,8 +31,8 @@ abstract contract ProtoCCTP is FeatureBase {
 
     ITokenMessenger public tokenMessenger;
     IProtoCCTP public feature;
-
-    constructor(IFeatureGateway _featureGateway) {
+    
+    function configure(IFeatureGateway _featureGateway) public onlyMessageOwner() {
         feature = IProtoCCTP(_featureGateway.featureAddresses(uint32(9000000)));
         tokenMessenger = ITokenMessenger(feature.tokenMessenger());
         usdc = feature.usdc();
