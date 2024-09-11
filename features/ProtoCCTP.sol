@@ -20,6 +20,7 @@ interface IProtoCCTP {
     function pathwayRootCircleDomain(uint _chainId) external view returns (uint32);
     function endpoints(uint _chainId) external view returns (address);
     function chainIdToPathwayAddress(uint _chainId) external view returns (address);
+    function pathwayRootChainId(uint _chainId) external view returns (uint);
 }
 
 interface IBridgedTokenFiatManager {
@@ -31,7 +32,7 @@ abstract contract ProtoCCTP is FeatureBase {
 
     ITokenMessenger public tokenMessenger;
     IProtoCCTP public feature;
-    
+
     function configure(IFeatureGateway _featureGateway) public onlyMessageOwner() {
         feature = IProtoCCTP(_featureGateway.featureAddresses(uint32(9000000)));
         tokenMessenger = ITokenMessenger(feature.tokenMessenger());
@@ -57,7 +58,7 @@ abstract contract ProtoCCTP is FeatureBase {
         IERC20cl(usdc).transferFrom(msg.sender, address(this), _amount);
 
         uint32 _destCircleDomain = feature.circleDomain(_destChainId);
-        if(_destCircleDomain != 0) {
+        if(_destCircleDomain != 99999) {
             // if the desination chain is a circle chain, send directly
             IERC20cl(usdc).approve(address(tokenMessenger), _amount);
             tokenMessenger.depositForBurnWithCaller(
@@ -70,7 +71,7 @@ abstract contract ProtoCCTP is FeatureBase {
             _sendMessageWithFeature(_destChainId, _data, uint32(9000000), '');
         } else {
             uint32 _destPathwayRootCircleDomain = feature.pathwayRootCircleDomain(_destChainId);
-            if(_destPathwayRootCircleDomain != 0) {
+            if(_destPathwayRootCircleDomain != 99999) {
                 // if the destination chain is a pathway chain, send to the root chain
                 if(_destPathwayRootCircleDomain == block.chainid) {
                     // we are on the root, so lets just send to the final pathway chain
@@ -82,9 +83,9 @@ abstract contract ProtoCCTP is FeatureBase {
                     tokenMessenger.depositForBurnWithCaller(
                         _amount, 
                         _destPathwayRootCircleDomain, 
-                        addressToBytes32(feature.endpoints(_destChainId)), // send to self to be able to forward
+                        addressToBytes32(feature.endpoints(feature.pathwayRootChainId(_destChainId))), // send to self to be able to forward
                         usdc,
-                        addressToBytes32(feature.endpoints(_destChainId))
+                        addressToBytes32(feature.endpoints(feature.pathwayRootChainId(_destChainId)))
                     );
                     _data = abi.encode(_recipient, _amount); // override data with final recipient since we are hopping
                     _sendMessageWithFeature(_destChainId, _data, uint32(9000000), '');
