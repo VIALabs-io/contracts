@@ -25,6 +25,7 @@ interface IProtoCCTP {
 
 interface IBridgedTokenFiatManager {
     function bridge(address recipient, uint amount) external returns (uint256 txId);
+    function bridge(address recipient, uint amount, bytes memory data) external returns (uint256 txId);
 }
 
 abstract contract ProtoCCTP is FeatureBase {
