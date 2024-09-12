@@ -17,15 +17,7 @@ interface IProtoCCTP {
     function tokenMessenger() external view returns (address);
     function usdc() external view returns (address);
     function circleDomain(uint _chainId) external view returns (uint32);
-    function pathwayRootCircleDomain(uint _chainId) external view returns (uint32);
     function endpoints(uint _chainId) external view returns (address);
-    function chainIdToPathwayAddress(uint _chainId) external view returns (address);
-    function pathwayRootChainId(uint _chainId) external view returns (uint);
-}
-
-interface IBridgedTokenFiatManager {
-    function bridge(address recipient, uint amount) external returns (uint256 txId);
-    function bridge(address recipient, uint amount, bytes memory data) external returns (uint256 txId);
 }
 
 abstract contract ProtoCCTP is FeatureBase {
@@ -40,18 +32,10 @@ abstract contract ProtoCCTP is FeatureBase {
         usdc = feature.usdc();
     }
 
-    /**
-     * Send USDC to destination chain/recipient without passing additonal message data.
-     */
     function _sendUSDC(uint _destChainId, address _recipient, uint _amount) internal {
         _sendUSDC(_destChainId, _recipient, _amount, '');
     }
 
-    /**
-     * Send USDC to destination chain/recipient along with additional arbitrary message data.
-     * USDC is sent to the destination _recipient which happens before the MessageV3.process() call.
-     * This means funds will be delivered even if the calling destination is a contract that reverts.
-     */
     function _sendUSDC(uint _destChainId, address _recipient, uint _amount, bytes memory _data) internal {
         IERC20cl(usdc).transferFrom(msg.sender, address(this), _amount);
 
