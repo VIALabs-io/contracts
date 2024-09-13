@@ -37,8 +37,6 @@ abstract contract ProtoCCTP is FeatureBase {
     }
 
     function _sendUSDC(uint _destChainId, address _recipient, uint _amount, bytes memory _data) internal {
-        IERC20cl(usdc).transferFrom(msg.sender, address(this), _amount);
-
         uint32 _destCircleDomain = feature.circleDomain(_destChainId);
         IERC20cl(usdc).approve(address(tokenMessenger), _amount);
         tokenMessenger.depositForBurnWithCaller(
