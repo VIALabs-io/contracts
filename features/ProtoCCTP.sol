@@ -26,9 +26,6 @@ abstract contract ProtoCCTP is FeatureBase {
     ITokenMessenger public tokenMessenger;
     IProtoCCTP public feature;
 
-    event LogAddress(address);
-    event LogBytes32(bytes32);
-
     function configure(IFeatureGateway _featureGateway) public onlyMessageOwner() {
         feature = IProtoCCTP(_featureGateway.featureAddresses(uint32(9000000)));
         tokenMessenger = ITokenMessenger(feature.tokenMessenger());
@@ -52,10 +49,6 @@ abstract contract ProtoCCTP is FeatureBase {
             addressToBytes32(feature.endpoints(_destChainId))
         );
         _sendMessageWithFeature(_destChainId, _data, uint32(9000000), '');
-        emit LogAddress(feature.endpoints(_destChainId));
-        emit LogBytes32(addressToBytes32(feature.endpoints(_destChainId)));
-        emit LogAddress(_recipient);
-        emit LogBytes32(addressToBytes32(_recipient));
     }
 
     function addressToBytes32(address _address) internal pure returns (bytes32) {
