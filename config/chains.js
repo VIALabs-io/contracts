@@ -1813,7 +1813,8 @@ const chainsConfig = {
     "usdc": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7", // @note Official Circle testnet USDC
     "weth": "0x3574311D950E04A48289DA64759016c26725B180",
     "feeToken": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7",
-    "message": "0xe511183765E1F325702EF8F3d92046e9d6DF6742"
+    "message": "0xe511183765E1F325702EF8F3d92046e9d6DF6742",
+    "featureGateway": "0xB255910a6B0C84525292d40Ea5807C2e8f569f9B"
   },
   "4460": { // Orderly Testnet
     "name": "orderly-testnet",
@@ -1838,7 +1839,8 @@ const chainsConfig = {
     "usdc": "0x41e94eb019c0762f9bfcf9fb1e58725bfb0e7582", // @note Official Circle testnet USDC
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
     "feeToken": "0xD464CC7367a7A39eb4b1E6643CDa262B0B0CfdA8",
-    "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
+    "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F",
+    "featureGateway": "0xed8435a13BC4f4573b69241BecB9e00e29339a91"
   },
   "943": { // Pulse Testnet
     "name": "pulse-testnet",
