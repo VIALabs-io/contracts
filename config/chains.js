@@ -1706,7 +1706,7 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "weth": "0xa7719d49246730e2ec6B69aAfC4873E74053b2eB",
-    "feeToken": "0x2419582bc316eb52217714C6f2F49D371BcBC2ec", // @note Path to USDC
+    "feeToken": "0xDf0F025AA89787A48cfE638CBC053BBF7d93b343", // @note Path to USDC
     "message": "0x01849193F33426C5b9C676757E9324a0f0761E6a"
   },
   "59902": { // Metis Testnet
@@ -1940,7 +1940,7 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "weth": "0xdCa897f920Df8015169838c428479D5e3d5Bf526",
-    "feeToken": "0xf92De0c98007EBaDa22E138A881710B82C513Da0", // @note Path to USDC
+    "feeToken": "0x67C375093cc98D6E56f2fAF0C3D3f75d3a088499", // @note Path to USDC
     "message": "0xeFaDc14c2DD95D0E6969d0B25EA6e4F830150493"
   },
   "2047": { // Stratos Testnet
@@ -2020,7 +2020,7 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "weth": "0xDb52110E8f15a72Ccf3ce205c30C27bdB846057D",
-    "feeToken": "0x3a60C03a86eEAe30501ce1af04a6C04Cf0188700", // @note Path to USDC
+    "feeToken": "0x3B142eC3E18890b06bBD893ed4C7dB548E0B6D04", // @note Path to USDC
     "message": "0x8f554B1b239a57C840d5902D1d901dAFF04F22C2"
   },
   "51": { // XDC Testnet
