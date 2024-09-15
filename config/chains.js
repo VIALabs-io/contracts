@@ -1269,12 +1269,9 @@ const chainsConfig = {
     "name": "arbitrum-sepolia",
     "network": "testnet",
     "type": "evm",
-    "circleTokenMessanger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
-    "circleMessageTransmitter": "0xaCF1ceeF35caAc005e15888dDb8A3515C41B4872",
-    "circleTokenMinter": "0xE997d7d2F6E065a9A93Fa2175E878Fb9081F1f0A",
     "message": "0x0D7e59B0390e47E6C3a29cCdF68e43f3e50e2119",
-    "featureGateway": "0xbf5288c8e8d5A1b89EFC2CefF1836f4c1392507f",
-    "feeToken": "0x6dc9C1599C52e8EC4f1389Cb466Df7A799E85136",
+    "featureGateway": "0x884b03E52772D5200898041bEC20377C8A59F731",
+    "feeToken": "0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d", // @note Official testnet USDC
     "paper": "0x6a2a6c5217A4690e060DB66B6D7F84EC6E91b1B8",
     "faucet": "0x01D6dC1b34EDdb2D4A490224f2C7506C24e2B1aC",
     "weth": "0x47963cB18B1aef899efcdC5EF7341B5167e5d4E0",
@@ -1311,24 +1308,20 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "usdc": "0x5425890298aed601595a70ab815c96711a31bc65",
-    "circleMessageTransmitter": "0xa9fb1b3009dcb79e2fe346c16a604b8fa8ae0a79",
-    "circleTokenMessanger": "0xeb08f243e5d3fcff26a9e38ae5520a669f4019d0",
     "weth": "0xD59A1806BAa7f46d1e07A07649784fA682708794",
     "feeToken": "0x5425890298aed601595a70ab815c96711a31bc65", // @note Official testnet USDC
     "message": "0x8f92F60ffFB05d8c64E755e54A216090D8D6Eaf9",
-    "featureGateway": "0xFc7d19A8409d122079F3E26748357d4DC63E0C5b"
+    "featureGateway": "0x970BBE7950542aEcF496170d2352b937FBE491f5"
   },
   "84532": { // Base Sepolia
     "name": "base-sepolia",
     "network": "testnet",
     "type": "evm",
     "usdc": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
-    "circleMessageTransmitter": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD",
-    "circleTokenMessanger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
     "weth": "0x32D9c1DA01F221aa0eab4A0771Aaa8E2344ECd35",
     "feeToken": "0x036CbD53842c5426634e7929541eC2318f3dCF7e", // @note Official testnet USDC
     "message": "0xE700Ee5d8B7dEc62987849356821731591c048cF",
-    "featureGateway": "0x8eF8870CD5583891bDDcf2555e7833bD087392a3"
+    "featureGateway": "0x210873CC12784d2E17bF8a5A7fEB763C2FeAaa71"
   },
   "97": { // Binance Testnet
     "name": "binance-testnet",
@@ -1483,12 +1476,10 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "usdc": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
-    "circleMessageTransmitter": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD",
-    "circleTokenMessanger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
     "weth": "0x6c884e8b8139a87A68b7c4350a9a25305f6de0b6",
     "feeToken": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238", // @note Official Circle testnet USDC
     "message": "0xF2AA17F92d4D9Be1c0b0D2A3235A06143A2D729f",
-    "featureGateway": "0x16c87625983646818C9F0e0651E09f4110a3ce2f"
+    "featureGateway": "0x534CbcAB62aCc17d993296D3bdEe6Bd7F68d57d2"
   },
   "128123": { // Etherlink Testnet
     "name": "etherlink-testnet",
@@ -1819,9 +1810,11 @@ const chainsConfig = {
     "name": "optimism-sepolia",
     "network": "testnet",
     "type": "evm",
+    "usdc": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7", // @note Official Circle testnet USDC
     "weth": "0x3574311D950E04A48289DA64759016c26725B180",
-    "feeToken": "0x3aBc0c7aC53935025d40F60e4235BB6Bd83B78f0",
-    "message": "0xe511183765E1F325702EF8F3d92046e9d6DF6742"
+    "feeToken": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7",
+    "message": "0xe511183765E1F325702EF8F3d92046e9d6DF6742",
+    "featureGateway": "0xB255910a6B0C84525292d40Ea5807C2e8f569f9B"
   },
   "4460": { // Orderly Testnet
     "name": "orderly-testnet",
@@ -1843,9 +1836,11 @@ const chainsConfig = {
     "name": "polygon-testnet",
     "network": "testnet",
     "type": "evm",
+    "usdc": "0x41e94eb019c0762f9bfcf9fb1e58725bfb0e7582", // @note Official Circle testnet USDC
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
     "feeToken": "0xD464CC7367a7A39eb4b1E6643CDa262B0B0CfdA8",
-    "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
+    "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F",
+    "featureGateway": "0xed8435a13BC4f4573b69241BecB9e00e29339a91"
   },
   "943": { // Pulse Testnet
     "name": "pulse-testnet",
