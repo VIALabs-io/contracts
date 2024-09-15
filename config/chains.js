@@ -1699,7 +1699,8 @@ const chainsConfig = {
     "usdc": "0xDf0F025AA89787A48cfE638CBC053BBF7d93b343", // @note Path to USDC
     "weth": "0xa7719d49246730e2ec6B69aAfC4873E74053b2eB",
     "feeToken": "0xDf0F025AA89787A48cfE638CBC053BBF7d93b343", // @note Path to USDC
-    "message": "0x01849193F33426C5b9C676757E9324a0f0761E6a"
+    "message": "0x01849193F33426C5b9C676757E9324a0f0761E6a",
+    "featureGateway": "0x528B8932a5cd82E1a99fEd86E607DF75ce889ce8"
   },
   "59902": { // Metis Testnet
     "name": "metis-testnet",
@@ -1938,7 +1939,8 @@ const chainsConfig = {
     "usdc": "0x67C375093cc98D6E56f2fAF0C3D3f75d3a088499", // @note Path to USDC
     "weth": "0xdCa897f920Df8015169838c428479D5e3d5Bf526",
     "feeToken": "0x67C375093cc98D6E56f2fAF0C3D3f75d3a088499", // @note Path to USDC
-    "message": "0xeFaDc14c2DD95D0E6969d0B25EA6e4F830150493"
+    "message": "0xeFaDc14c2DD95D0E6969d0B25EA6e4F830150493",
+    "featureGateway": "0x64555eE18ea829d6d0f08527EF86eFD8d9BA8A73"
   },
   "2047": { // Stratos Testnet
     "name": "stratos-testnet",
@@ -2019,7 +2021,8 @@ const chainsConfig = {
     "usdc": "0x3B142eC3E18890b06bBD893ed4C7dB548E0B6D04", // @note Path to USDC
     "weth": "0xDb52110E8f15a72Ccf3ce205c30C27bdB846057D",
     "feeToken": "0x3B142eC3E18890b06bBD893ed4C7dB548E0B6D04", // @note Path to USDC
-    "message": "0x8f554B1b239a57C840d5902D1d901dAFF04F22C2"
+    "message": "0x8f554B1b239a57C840d5902D1d901dAFF04F22C2",
+    "featureGateway": "0x5604CC48fcEAb07F29f010981F6dc41846D37780"
   },
   "51": { // XDC Testnet
     "name": "xdc-testnet",
