@@ -13,21 +13,21 @@ interface ITokenMessenger {
     function depositForBurnWithCaller(uint256 amount, uint32 destinationDomain, bytes32 mintRecipient, address burnToken, bytes32 destinationCaller) external returns (uint64 nonce);
 }
 
-interface IProtoCCTP {
+interface IFeatureCCTP {
     function tokenMessenger() external view returns (address);
     function usdc() external view returns (address);
     function circleDomain(uint _chainId) external view returns (uint32);
     function endpoints(uint _chainId) external view returns (address);
 }
 
-abstract contract ProtoCCTP is FeatureBase {
+abstract contract FeatureCCTP is FeatureBase {
     address public usdc;
 
     ITokenMessenger public tokenMessenger;
-    IProtoCCTP public feature;
+    IFeatureCCTP public feature;
 
     function configure(IFeatureGateway _featureGateway) public onlyMessageOwner() {
-        feature = IProtoCCTP(_featureGateway.featureAddresses(uint32(9000000)));
+        feature = IFeatureCCTP(_featureGateway.featureAddresses(uint32(9000000)));
         tokenMessenger = ITokenMessenger(feature.tokenMessenger());
         usdc = feature.usdc();
     }
