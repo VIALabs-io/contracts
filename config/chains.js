@@ -1265,6 +1265,14 @@ const chainsConfig = {
     featureGateway: "0x48bcCFb7924acf4F944450dCFef2682C72e9758C",
   },
 
+  "997": {
+    "name": "5ire-testnet",
+    "network": "testnet",
+    "type": "evm",
+    "message": "0x8DE416ABd87307f966a5655701F2f78012585225",
+    "feeToken": "",
+    "weth": "0x17C84459367f9787356b01d7f624Ef0e7E6cA11F"
+  },
   "421614": { // Arbitrum Testnet (Sepolia)
     "name": "arbitrum-sepolia",
     "network": "testnet",

@@ -255,6 +255,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 
 | Chain Name                  | Chain ID   | Contract Address                           |
 |-----------------------------|------------|--------------------------------------------|
+| 5ire Testnet                | 997        | 0x8DE416ABd87307f966a5655701F2f78012585225 |
 | Arbitrum Testnet (Sepolia)  | 421614     | 0x0D7e59B0390e47E6C3a29cCdF68e43f3e50e2119 |
 | Aurora Testnet              | 1313161555 | 0x52e1CFE18BD55bb8d885d463DC26D9C365cd316B |
 | Autonity Testnet            | 65100002   | 0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F | 
