@@ -1270,7 +1270,7 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "message": "0x8DE416ABd87307f966a5655701F2f78012585225",
-    "feeToken": "",
+    "feeToken": "0x84126A2D8dF65Bb32E6952c351f877E59e02a17f", // @note Path to USDC with Proto support
     "weth": "0x17C84459367f9787356b01d7f624Ef0e7E6cA11F"
   },
   "421614": { // Arbitrum Testnet (Sepolia)
