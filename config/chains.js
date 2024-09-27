@@ -2053,7 +2053,7 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "weth": "0x9d75f706b986F0075b3778a12153390273dE95eC",
-    "feeToken": "0x46bFafc74f8dD1FC4c8Ea963ac881504Ba75D5fD", // @note Path to USDC
+    "feeToken": "0xA1AeC40c1B58226407B8b0dF050c8D9ab0df7a7D", // @note Path to USDC
     "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "43851": { // ZkFair Testnet
