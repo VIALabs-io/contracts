@@ -137,6 +137,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 
 | Chain Name              | Chain ID    | Contract Address                           |
 |-------------------------|-------------|--------------------------------------------|
+| 5ire Mainnet            | 995         | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | Alveychain Mainnet      | 3797        | 0x65EEc58ef38882422E887B82f7085e9a9C35dCA1 |
 | Arbitrum Mainnet        | 42161       | 0x65EEc58ef38882422E887B82f7085e9a9C35dCA1 |
 | Ancient8 Mainnet        | 88888888    | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
