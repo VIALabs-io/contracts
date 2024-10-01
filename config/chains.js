@@ -2012,7 +2012,7 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
-    "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
+    "feeToken": "0x2777023E33B88CE622B15eCfA4ADa3cb5a9C545f", // @note Path to USDC, proto CCTP compatible
     "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F",
     "featureGateway": "0x79Ef331759b1C9277313EC5f4ABACC658Ef8F526"
   },
