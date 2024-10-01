@@ -1775,6 +1775,14 @@ const chainsConfig = {
     "feeToken": "0x9d75f706b986F0075b3778a12153390273dE95eC",
     "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
+  "7222": { // Nibiru Devnet-3
+    "name": "nibiru-devnet3",
+    "network": "testnet",
+    "type": "evm",
+    "weth": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
+    "feeToken": "0x9d75f706b986F0075b3778a12153390273dE95eC",
+    "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
+  },
   "42261": { // Oasis Emerald Testnet
     "name": "oasis-emerald-testnet",
     "network": "testnet",
