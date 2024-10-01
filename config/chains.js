@@ -1279,8 +1279,7 @@ const chainsConfig = {
     "type": "evm",
     "message": "0x8DE416ABd87307f966a5655701F2f78012585225",
     "feeToken": "0x84126A2D8dF65Bb32E6952c351f877E59e02a17f", // @note Path to USDC with Proto support
-    "weth": "0x17C84459367f9787356b01d7f624Ef0e7E6cA11F",
-    "featureGateway": "0xb01b6E0d4AA0081336D02EdfaF67E68fdBF9B00b"
+    "weth": "0x17C84459367f9787356b01d7f624Ef0e7E6cA11F"
   },
   "421614": { // Arbitrum Testnet (Sepolia)
     "name": "arbitrum-sepolia",
@@ -2012,9 +2011,8 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "weth": "0x0EFafca24E5BbC1C01587B659226B9d600fd671f",
-    "feeToken": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
-    "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F",
-    "featureGateway": "0x79Ef331759b1C9277313EC5f4ABACC658Ef8F526"
+    "feeToken": "0x2777023E33B88CE622B15eCfA4ADa3cb5a9C545f", // @note Path to USDC, proto CCTP compatible
+    "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "41": { // Telos Testnet
     "name": "telos-testnet",
