@@ -1780,7 +1780,7 @@ const chainsConfig = {
     "network": "testnet",
     "type": "evm",
     "weth": "0x566B40Dd59A868c244E1353368e08ddaD1C1d74f",
-    "feeToken": "0x9d75f706b986F0075b3778a12153390273dE95eC",
+    "feeToken": "0x3C615A128acb9E3247d4CF24CaA0a987d3816754", // @note Path to USDC, proto CCTP compatible
     "message": "0x3B5b764229b2EdE0162220aF51ab6bf7f8527a4F"
   },
   "42261": { // Oasis Emerald Testnet
