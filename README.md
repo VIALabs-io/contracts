@@ -250,6 +250,7 @@ The `recoverToken` function allows the contract owner to recover funds sent to t
 | Zeta Mainnet            | 7000        | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 | ZKLink Mainnet          | 810180      | 0x205B6E9a868F26DC18feE372071C5FA42a6Cea3D |
 | XPLA EVM Mainnet        | 37          | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
+| Zircuit Mainnet         | 48900       | 0x15AC559DA4951c796DB6620fAb286B96840D039A | 
 | Zora Mainnet            | 7777777     | 0x15AC559DA4951c796DB6620fAb286B96840D039A |
 
 ### Testnets
